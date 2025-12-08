@@ -3,12 +3,7 @@ from backend.db_connection import db
 
 desk = Blueprint('desk', __name__)
 
-# ============================================
-# USERS [Payton-5]
-# ============================================
-
 # GET all users with optional filters
-# Example: /desk/users?accStatus=active&name=John
 @desk.route('/users', methods=['GET'])
 def get_all_users():
     cursor = db.get_db().cursor()
@@ -51,7 +46,7 @@ def create_user():
     response.status_code = 201
     return response
 
-# GET a specific user [Payton-5]
+# GET a specific user
 @desk.route('/users/<int:user_id>', methods=['GET'])
 def get_user(user_id):
     cursor = db.get_db().cursor()
@@ -97,12 +92,8 @@ def delete_user(user_id):
     response.status_code = 200
     return response
 
-# ============================================
-# INVENTORY [Payton-1, Payton-6]
-# ============================================
 
 # GET all inventory with filters
-# Example: /desk/inventory?managerID=1&storageLocationID=2&daysMin=30
 @desk.route('/inventory', methods=['GET'])
 def get_all_inventory():
     cursor = db.get_db().cursor()
@@ -143,7 +134,7 @@ def get_all_inventory():
     response.status_code = 200
     return response
 
-# POST add to inventory [Payton-6]
+# POST add to inventory
 @desk.route('/inventory', methods=['POST'])
 def create_inventory():
     data = request.json
@@ -187,7 +178,7 @@ def get_inventory_item(inventory_id):
     response.status_code = 200
     return response
 
-# PUT update inventory location [Payton-6]
+# PUT update inventory location
 @desk.route('/inventory/<int:inventory_id>', methods=['PUT'])
 def update_inventory(inventory_id):
     data = request.json
@@ -202,7 +193,7 @@ def update_inventory(inventory_id):
     response.status_code = 200
     return response
 
-# DELETE from inventory [Payton-4]
+# DELETE from inventory
 @desk.route('/inventory/<int:inventory_id>', methods=['DELETE'])
 def delete_inventory(inventory_id):
     cursor = db.get_db().cursor()
@@ -213,12 +204,8 @@ def delete_inventory(inventory_id):
     response.status_code = 200
     return response
 
-# ============================================
-# CLAIMS [Payton-4]
-# ============================================
 
 # GET all claims with filters
-# Example: /desk/claims?managerID=1&dateStart=2024-01-01
 @desk.route('/claims', methods=['GET'])
 def get_all_claims():
     cursor = db.get_db().cursor()
@@ -257,7 +244,7 @@ def get_all_claims():
     response.status_code = 200
     return response
 
-# POST create a claim [Payton-4]
+# POST create a claim
 @desk.route('/claims', methods=['POST'])
 def create_claim():
     data = request.json
@@ -299,12 +286,8 @@ def get_claim(claim_id):
     response.status_code = 200
     return response
 
-# ============================================
-# ITEMS [Payton-2]
-# ============================================
 
 # GET all items with filters
-# Example: /desk/items?categoryID=1&status=found&daysMin=30
 @desk.route('/items', methods=['GET'])
 def get_all_items():
     cursor = db.get_db().cursor()
@@ -370,7 +353,7 @@ def get_item(item_id):
     response.status_code = 200
     return response
 
-# PUT update item status [Payton-4]
+# PUT update item status
 @desk.route('/items/<int:item_id>', methods=['PUT'])
 def update_item(item_id):
     data = request.json
@@ -385,7 +368,7 @@ def update_item(item_id):
     response.status_code = 200
     return response
 
-# DELETE item [Payton-1 - dispose old items]
+# DELETE item
 @desk.route('/items/<int:item_id>', methods=['DELETE'])
 def delete_item(item_id):
     cursor = db.get_db().cursor()
@@ -400,12 +383,8 @@ def delete_item(item_id):
     response.status_code = 200
     return response
 
-# ============================================
-# FOUND REPORTS [Payton-2]
-# ============================================
 
 # GET all found reports with filters
-# Example: /desk/found-reports?locationID=1&userID=5&dateStart=2024-01-01
 @desk.route('/found-reports', methods=['GET'])
 def get_all_found_reports():
     cursor = db.get_db().cursor()
@@ -477,12 +456,8 @@ def get_found_report(report_id):
     response.status_code = 200
     return response
 
-# ============================================
-# LOST REPORTS [Payton-3]
-# ============================================
 
 # GET all lost reports with filters
-# Example: /desk/lost-reports?locationID=1&dateStart=2024-11-01&dateEnd=2024-11-30
 @desk.route('/lost-reports', methods=['GET'])
 def get_all_lost_reports():
     cursor = db.get_db().cursor()
@@ -525,10 +500,6 @@ def get_all_lost_reports():
     response.status_code = 200
     return response
 
-# ============================================
-# STORAGE LOCATIONS
-# ============================================
-
 # GET all storage locations
 @desk.route('/storage-locations', methods=['GET'])
 def get_storage_locations():
@@ -540,9 +511,6 @@ def get_storage_locations():
     response.status_code = 200
     return response
 
-# ============================================
-# DESK MANAGERS
-# ============================================
 
 # GET all managers
 @desk.route('/managers', methods=['GET'])
@@ -566,9 +534,6 @@ def get_manager(manager_id):
     response.status_code = 200
     return response
 
-# ============================================
-# CATEGORIES
-# ============================================
 
 # GET all categories
 @desk.route('/categories', methods=['GET'])
@@ -581,9 +546,6 @@ def get_categories():
     response.status_code = 200
     return response
 
-# ============================================
-# LOCATIONS
-# ============================================
 
 # GET all locations
 @desk.route('/locations', methods=['GET'])
