@@ -6,82 +6,59 @@ from modules.nav import SideBarLinks
 # Initialize sidebar
 SideBarLinks()
 
-st.title("NGO Profile")
+st.title("Item Report")
 
-# Get NGO ID from session state
-ngo_id = st.session_state.get("selected_ngo_id")
+# Get ITEM ID from session state
+item_id = st.session_state.get("selected_item_id")
 
-if ngo_id is None:
-    st.error("No NGO selected")
+if item_id is None:
+    st.error("No Item selected")
     st.button(
-        "Return to NGO Directory",
+        "Return to Item Catalogue",
         on_click=lambda: st.switch_page("pages/14_NGO_Directory.py"),
     )
 else:
     # API endpoint
-    API_URL = f"http://web-api:4000/ngo/ngos/{ngo_id}"
+    API_URL = f"http://web-api:4000/ngo/ngos/{item_id}"
 
     try:
-        # Fetch NGO details
+        # Fetch Item details
         response = requests.get(API_URL)
 
         if response.status_code == 200:
-            ngo = response.json()
+            item = response.json()
 
             # Display basic information
-            st.header(ngo["Name"])
+            st.header(item["Name"])
 
             col1, col2 = st.columns(2)
 
             with col1:
                 st.subheader("Basic Information")
-                st.write(f"**Country:** {ngo['Country']}")
-                st.write(f"**Founded:** {ngo['Founding_Year']}")
-                st.write(f"**Focus Area:** {ngo['Focus_Area']}")
-                st.write(f"**Website:** [{ngo['Website']}]({ngo['Website']})")
+                st.write(f"**Item:** {item['Country']}")
+                st.write(f"**Location Found:** {item['Location_Found']}")
+                st.write(f"**Date Found:** {item['Date_Found']}")
+                st.write(f"**Description:** {item['Description']}")
 
-            # Display projects
-            if ngo.get("projects"):
-                st.subheader("Projects")
-                for project in ngo["projects"]:
-                    with st.expander(
-                        f"{project['Project_Name']} ({project['Focus_Area']})"
-                    ):
-                        budget = float(project["Budget"]) if project["Budget"] else 0.0
-                        st.write(f"**Budget:** ${budget:,.2f}")
-                        st.write(f"**Start Date:** {project['Start_Date']}")
-                        st.write(f"**End Date:** {project['End_Date']}")
-            else:
-                st.info("No projects found for this NGO")
-
-            # Display donors
-            if ngo.get("donors"):
-                st.subheader("Donors")
-                for donor in ngo["donors"]:
-                    with st.expander(f"{donor['Donor_Name']} ({donor['Donor_Type']})"):
-                        donation = (
-                            float(donor["Donation_Amount"])
-                            if donor["Donation_Amount"]
-                            else 0.0
-                        )
-                        st.write(f"**Donation Amount:** ${donation:,.2f}")
-            else:
-                st.info("No donors found for this NGO")
+            with col2:
+                st.write("**Contact Information**")
+                st.write(f"**Email:** [{item['Email']}]")
+                st.write(f"**Phone Number:** [{item['Phone']}]")
 
         elif response.status_code == 404:
-            st.error("NGO not found")
+            st.error("Item not found")
         else:
             st.error(
-                f"Error fetching NGO data: {response.json().get('error', 'Unknown error')}"
+                f"Error fetching item data: {response.json().get('error', 'Unknown error')}"
             )
 
     except requests.exceptions.RequestException as e:
         st.error(f"Error connecting to the API: {str(e)}")
         st.info("Please ensure the API server is running")
 
-# Add a button to return to the NGO Directory
-if st.button("Return to NGO Directory"):
-    # Clear the selected NGO ID from session state
-    if "selected_ngo_id" in st.session_state:
-        del st.session_state["selected_ngo_id"]
+# Add a button to return to the Item Catalogue
+if st.button("Return to Item Catalogue"):
+    # Clear the selected Item ID from session state
+    if "selected_item_id" in st.session_state:
+        del st.session_state["selected_item_id"]
     st.switch_page("pages/14_NGO_Directory.py")
