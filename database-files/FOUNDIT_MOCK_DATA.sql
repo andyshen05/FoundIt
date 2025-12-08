@@ -1,3 +1,5 @@
+USE foundit;
+
 INSERT INTO admin (adminID, email) VALUES ('1', 'ariepl0@lulu.com');
 INSERT INTO admin (adminID, email) VALUES ('2', 'rkitchener1@oakley.com');
 INSERT INTO admin (adminID, email) VALUES ('3', 'aitter2@clickbank.net');
