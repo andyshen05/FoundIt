@@ -19,9 +19,9 @@ def get_all_lost_reports():
         SELECT lr.lostReportID, lr.dateLost, lr.userID, lr.locationID,
                u.name as userName, u.email, u.phoneNumber,
                l.lastSeenAt as location
-        FROM Lost_Item_Report lr
-        JOIN User u ON lr.userID = u.userID
-        JOIN Location l ON lr.locationID = l.locationID
+        FROM lost_item_report lr
+        JOIN user u ON lr.userID = u.userID
+        JOIN location l ON lr.locationID = l.locationID
         WHERE 1=1
     '''
     params = []
@@ -56,7 +56,7 @@ def create_lost_report():
     current_app.logger.info(f'Creating lost report: {data}')
     
     query = '''
-        INSERT INTO Lost_Item_Report (lostReportID, dateLost, userID, locationID)
+        INSERT INTO lost_item_report (lostReportID, dateLost, userID, locationID)
         VALUES (%s, %s, %s, %s)
     '''
     cursor = db.get_db().cursor()
@@ -76,9 +76,9 @@ def get_lost_report(report_id):
         SELECT lr.lostReportID, lr.dateLost, lr.userID, lr.locationID,
                u.name as userName, u.email, u.phoneNumber,
                l.lastSeenAt as location
-        FROM Lost_Item_Report lr
-        JOIN User u ON lr.userID = u.userID
-        JOIN Location l ON lr.locationID = l.locationID
+        FROM lost_item_report lr
+        JOIN user u ON lr.userID = u.userID
+        JOIN location l ON lr.locationID = l.locationID
         WHERE lr.lostReportID = %s
     '''
     cursor.execute(query, (report_id,))
@@ -98,7 +98,7 @@ def update_lost_report(report_id):
     current_app.logger.info(f'Updating lost report {report_id}: {data}')
     
     query = '''
-        UPDATE Lost_Item_Report 
+        UPDATE lost_item_report 
         SET dateLost = %s, locationID = %s
         WHERE lostReportID = %s
     '''
@@ -114,10 +114,8 @@ def update_lost_report(report_id):
 @losers.route('/lost-reports/<int:report_id>', methods=['DELETE'])
 def delete_lost_report(report_id):
     cursor = db.get_db().cursor()
-    # Delete associated rewards first
-    cursor.execute('DELETE FROM Reward WHERE lostReportID = %s', (report_id,))
-    # Then delete the report
-    cursor.execute('DELETE FROM Lost_Item_Report WHERE lostReportID = %s', (report_id,))
+    cursor.execute('DELETE FROM reward WHERE lostReportID = %s', (report_id,))
+    cursor.execute('DELETE FROM lost_item_report WHERE lostReportID = %s', (report_id,))
     db.get_db().commit()
     
     response = make_response(jsonify({'message': 'Lost report deleted successfully'}))
@@ -132,7 +130,7 @@ def get_all_rewards():
     
     lost_report_id = request.args.get('lostReportID')
     
-    query = 'SELECT rewardID, rewardAmount, lostReportID FROM Reward WHERE 1=1'
+    query = 'SELECT rewardID, rewardAmount, lostReportID FROM reward WHERE 1=1'
     params = []
     
     if lost_report_id:
@@ -153,7 +151,7 @@ def create_reward():
     current_app.logger.info(f'Creating reward: {data}')
     
     query = '''
-        INSERT INTO Reward (rewardID, rewardAmount, lostReportID)
+        INSERT INTO reward (rewardID, rewardAmount, lostReportID)
         VALUES (%s, %s, %s)
     '''
     cursor = db.get_db().cursor()
@@ -168,7 +166,7 @@ def create_reward():
 @losers.route('/rewards/<int:reward_id>', methods=['GET'])
 def get_reward(reward_id):
     cursor = db.get_db().cursor()
-    query = 'SELECT rewardID, rewardAmount, lostReportID FROM Reward WHERE rewardID = %s'
+    query = 'SELECT rewardID, rewardAmount, lostReportID FROM reward WHERE rewardID = %s'
     cursor.execute(query, (reward_id,))
     data = cursor.fetchall()
     
@@ -180,7 +178,7 @@ def get_reward(reward_id):
 @losers.route('/rewards/<int:reward_id>', methods=['PUT'])
 def update_reward(reward_id):
     data = request.json
-    query = 'UPDATE Reward SET rewardAmount = %s WHERE rewardID = %s'
+    query = 'UPDATE reward SET rewardAmount = %s WHERE rewardID = %s'
     cursor = db.get_db().cursor()
     cursor.execute(query, (data['rewardAmount'], reward_id))
     db.get_db().commit()
@@ -193,7 +191,7 @@ def update_reward(reward_id):
 @losers.route('/rewards/<int:reward_id>', methods=['DELETE'])
 def delete_reward(reward_id):
     cursor = db.get_db().cursor()
-    cursor.execute('DELETE FROM Reward WHERE rewardID = %s', (reward_id,))
+    cursor.execute('DELETE FROM reward WHERE rewardID = %s', (reward_id,))
     db.get_db().commit()
     
     response = make_response(jsonify({'message': 'Reward deleted successfully'}))
@@ -204,7 +202,7 @@ def delete_reward(reward_id):
 @losers.route('/notifications/user/<int:user_id>', methods=['GET'])
 def get_user_notifications(user_id):
     cursor = db.get_db().cursor()
-    query = 'SELECT notificationID, message, userID FROM Notification WHERE userID = %s ORDER BY notificationID DESC'
+    query = 'SELECT notificationID, message, userID FROM notification WHERE userID = %s ORDER BY notificationID DESC'
     cursor.execute(query, (user_id,))
     data = cursor.fetchall()
     
@@ -218,7 +216,7 @@ def create_notification():
     data = request.json
     current_app.logger.info(f'Creating notification: {data}')
     
-    query = 'INSERT INTO Notification (notificationID, message, userID) VALUES (%s, %s, %s)'
+    query = 'INSERT INTO notification (notificationID, message, userID) VALUES (%s, %s, %s)'
     cursor = db.get_db().cursor()
     cursor.execute(query, (data['notificationID'], data['message'], data['userID']))
     db.get_db().commit()
@@ -231,7 +229,7 @@ def create_notification():
 @losers.route('/notifications/<int:notification_id>', methods=['DELETE'])
 def delete_notification(notification_id):
     cursor = db.get_db().cursor()
-    cursor.execute('DELETE FROM Notification WHERE notificationID = %s', (notification_id,))
+    cursor.execute('DELETE FROM notification WHERE notificationID = %s', (notification_id,))
     db.get_db().commit()
     
     response = make_response(jsonify({'message': 'Notification deleted'}))
@@ -252,8 +250,8 @@ def get_all_items():
     query = '''
         SELECT i.itemID, i.description, i.status, i.dateFound, i.daysInStorage,
                i.categoryID, c.categoryName
-        FROM Item i
-        LEFT JOIN Category c ON i.categoryID = c.categoryID
+        FROM items i
+        LEFT JOIN category c ON i.categoryID = c.categoryID
         WHERE 1=1
     '''
     params = []
@@ -284,7 +282,7 @@ def get_all_items():
 @losers.route('/categories', methods=['GET'])
 def get_categories():
     cursor = db.get_db().cursor()
-    cursor.execute('SELECT categoryID, categoryName FROM Category ORDER BY categoryName')
+    cursor.execute('SELECT categoryID, categoryName FROM category ORDER BY categoryName')
     data = cursor.fetchall()
     
     response = make_response(jsonify(data))
@@ -295,7 +293,7 @@ def get_categories():
 @losers.route('/locations', methods=['GET'])
 def get_locations():
     cursor = db.get_db().cursor()
-    cursor.execute('SELECT locationID, lastSeenAt FROM Location ORDER BY lastSeenAt')
+    cursor.execute('SELECT locationID, lastSeenAt FROM location ORDER BY lastSeenAt')
     data = cursor.fetchall()
     
     response = make_response(jsonify(data))
