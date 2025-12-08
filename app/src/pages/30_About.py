@@ -8,7 +8,7 @@ st.write("# About this App")
 
 st.markdown(
     """
-    This is a demo app for Data and Software in International Government and Politics Dialogue 2025 Project Course.  
+    This is a demo app for FindIt, our CS3200 Final Project.  
 
     The goal of this demo is to provide information on the tech stack 
     being used as well as demo some of the features of the various platforms. 

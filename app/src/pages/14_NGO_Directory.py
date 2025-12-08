@@ -6,7 +6,7 @@ from modules.nav import SideBarLinks
 # Initialize sidebar
 SideBarLinks()
 
-st.title("NGO Directory")
+st.title("Found Item Directory")
 
 # API endpoint
 API_URL = "http://web-api:4000/ngo/ngos"
@@ -18,65 +18,66 @@ col1, col2, col3 = st.columns(3)
 try:
     response = requests.get(API_URL)
     if response.status_code == 200:
-        ngos = response.json()
+        items = response.json()
 
         # Extract unique values for filters
-        countries = sorted(list(set(ngo["Country"] for ngo in ngos)))
-        focus_areas = sorted(list(set(ngo["Focus_Area"] for ngo in ngos)))
-        founding_years = sorted(list(set(ngo["Founding_Year"] for ngo in ngos)))
+        items = sorted(list(set(item["Item"] for item in items)))
+        locations = sorted(list(set(item["Location_Found"] for item in items)))
+        dates = sorted(list(set(item["Date_Found"] for item in items)))
 
         # Create filters
         with col1:
-            selected_country = st.selectbox("Filter by Country", ["All"] + countries)
+            selected_item = st.selectbox("Filter by Item", ["All"] + items)
 
         with col2:
-            selected_focus = st.selectbox("Filter by Focus Area", ["All"] + focus_areas)
+            selected_location = st.selectbox("Filter by Location", ["All"] + locations)
 
         with col3:
-            selected_year = st.selectbox(
-                "Filter by Founding Year",
-                ["All"] + [str(year) for year in founding_years],
+            selected_date = st.selectbox(
+                "Filter by Date",
+                ["All"] + [str(date) for date in dates],
             )
 
         # Build query parameters
         params = {}
-        if selected_country != "All":
-            params["country"] = selected_country
-        if selected_focus != "All":
-            params["focus_area"] = selected_focus
-        if selected_year != "All":
-            params["founding_year"] = selected_year
+        if selected_item != "All":
+            params["item"] = selected_item
+        if selected_location != "All":
+            params["locations"] = selected_location
+        if selected_date != "All":
+            params["dates"] = selected_date
 
         # Get filtered data
         filtered_response = requests.get(API_URL, params=params)
         if filtered_response.status_code == 200:
-            filtered_ngos = filtered_response.json()
+            filtered_items = filtered_response.json()
 
             # Display results count
-            st.write(f"Found {len(filtered_ngos)} NGOs")
+            st.write(f"Found {len(filtered_items)} Items")
 
-            # Create expandable rows for each NGO
-            for ngo in filtered_ngos:
-                with st.expander(f"{ngo['Name']} ({ngo['Country']})"):
+            # Create expandable rows for each item
+            for item in filtered_items:
+                with st.expander(f"{item['Name']} ({item['Location']})"):
                     col1, col2 = st.columns(2)
 
                     with col1:
                         st.write("**Basic Information**")
-                        st.write(f"**Country:** {ngo['Country']}")
-                        st.write(f"**Founded:** {ngo['Founding_Year']}")
-                        st.write(f"**Focus Area:** {ngo['Focus_Area']}")
+                        st.write(f"**Item:** {item['Item']}")
+                        st.write(f"**Location Found:** {item['Location_Found']}")
+                        st.write(f"**Date Found:** {item['Date_Found']}")
 
                     with col2:
                         st.write("**Contact Information**")
-                        st.write(f"**Website:** [{ngo['Website']}]({ngo['Website']})")
+                        st.write(f"**Email:** [{item['Email']}]")
+                        st.write(f"**Phone Number:** [{item['Phone']}]")
 
-                    # Add a button to view full profile
-                    if st.button(f"View Full Profile", key=f"view_{ngo['NGO_ID']}"):
-                        st.session_state["selected_ngo_id"] = ngo["NGO_ID"]
+                    # Add a button to view full report
+                    if st.button(f"View Full Report", key=f"view_{item['ITEM_ID']}"):
+                        st.session_state["selected_item_id"] = item["ITEM_ID"]
                         st.switch_page("pages/16_NGO_Profile.py")
 
     else:
-        st.error("Failed to fetch NGO data from the API")
+        st.error("Failed to fetch item data from the API")
 
 except requests.exceptions.RequestException as e:
     st.error(f"Error connecting to the API: {str(e)}")
