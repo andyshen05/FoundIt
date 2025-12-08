@@ -11,7 +11,7 @@ def get_all_users():
     acc_status = request.args.get('accStatus')
     name = request.args.get('name')
     
-    query = 'SELECT userID, name, email, phoneNumber, accStatus FROM User WHERE 1=1'
+    query = 'SELECT userID, name, email, phoneNumber, accStatus FROM user WHERE 1=1'
     params = []
     
     if acc_status:
@@ -36,7 +36,7 @@ def create_user():
     data = request.json
     current_app.logger.info(f'Creating user: {data}')
     
-    query = 'INSERT INTO User (userID, name, email, phoneNumber, accStatus) VALUES (%s, %s, %s, %s, %s)'
+    query = 'INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (%s, %s, %s, %s, %s)'
     cursor = db.get_db().cursor()
     cursor.execute(query, (data['userID'], data['name'], data['email'], 
                           data['phoneNumber'], data.get('accStatus', 'active')))
@@ -50,7 +50,7 @@ def create_user():
 @desk.route('/users/<int:user_id>', methods=['GET'])
 def get_user(user_id):
     cursor = db.get_db().cursor()
-    query = 'SELECT userID, name, email, phoneNumber, accStatus FROM User WHERE userID = %s'
+    query = 'SELECT userID, name, email, phoneNumber, accStatus FROM user WHERE userID = %s'
     cursor.execute(query, (user_id,))
     data = cursor.fetchall()
     
@@ -67,7 +67,7 @@ def update_user(user_id):
     data = request.json
     current_app.logger.info(f'Updating user {user_id}: {data}')
     
-    query = 'UPDATE User SET accStatus = %s WHERE userID = %s'
+    query = 'UPDATE user SET accStatus = %s WHERE userID = %s'
     cursor = db.get_db().cursor()
     cursor.execute(query, (data['accStatus'], user_id))
     db.get_db().commit()
@@ -80,12 +80,11 @@ def update_user(user_id):
 @desk.route('/users/<int:user_id>', methods=['DELETE'])
 def delete_user(user_id):
     cursor = db.get_db().cursor()
-    # Delete related records first
-    cursor.execute('DELETE FROM Notification WHERE userID = %s', (user_id,))
-    cursor.execute('DELETE FROM Reward WHERE lostReportID IN (SELECT lostReportID FROM Lost_Item_Report WHERE userID = %s)', (user_id,))
-    cursor.execute('DELETE FROM Lost_Item_Report WHERE userID = %s', (user_id,))
-    cursor.execute('DELETE FROM Found_Item_Report WHERE userID = %s', (user_id,))
-    cursor.execute('DELETE FROM User WHERE userID = %s', (user_id,))
+    cursor.execute('DELETE FROM notification WHERE userID = %s', (user_id,))
+    cursor.execute('DELETE FROM reward WHERE lostReportID IN (SELECT lostReportID FROM lost_item_report WHERE userID = %s)', (user_id,))
+    cursor.execute('DELETE FROM lost_item_report WHERE userID = %s', (user_id,))
+    cursor.execute('DELETE FROM found_item_report WHERE userID = %s', (user_id,))
+    cursor.execute('DELETE FROM user WHERE userID = %s', (user_id,))
     db.get_db().commit()
     
     response = make_response(jsonify({'message': 'User deleted'}))
@@ -100,17 +99,17 @@ def get_all_inventory():
     
     manager_id = request.args.get('managerID')
     storage_location_id = request.args.get('storageLocationID')
-    days_min = request.args.get('daysMin')  # items in storage for at least X days
+    days_min = request.args.get('daysMin')
     
     query = '''
         SELECT fi.inventoryID, fi.dateReceived, fi.managerID, fi.itemID, fi.storageLocationID,
                i.description, i.status, i.daysInStorage,
                sl.shelfNumber,
                dm.name as managerName
-        FROM Found_Item_Inventory fi
-        JOIN Item i ON fi.itemID = i.itemID
-        JOIN Storage_Location sl ON fi.storageLocationID = sl.storageLocationID
-        JOIN Desk_Manager dm ON fi.managerID = dm.managerID
+        FROM found_item_inventory fi
+        JOIN items i ON fi.itemID = i.itemID
+        JOIN storage_location sl ON fi.storageLocationID = sl.storageLocationID
+        JOIN desk_manager dm ON fi.managerID = dm.managerID
         WHERE 1=1
     '''
     params = []
@@ -141,7 +140,7 @@ def create_inventory():
     current_app.logger.info(f'Creating inventory record: {data}')
     
     query = '''
-        INSERT INTO Found_Item_Inventory (inventoryID, dateReceived, managerID, itemID, storageLocationID)
+        INSERT INTO found_item_inventory (inventoryID, dateReceived, managerID, itemID, storageLocationID)
         VALUES (%s, %s, %s, %s, %s)
     '''
     cursor = db.get_db().cursor()
@@ -162,10 +161,10 @@ def get_inventory_item(inventory_id):
                i.description, i.status, i.daysInStorage,
                sl.shelfNumber,
                dm.name as managerName
-        FROM Found_Item_Inventory fi
-        JOIN Item i ON fi.itemID = i.itemID
-        JOIN Storage_Location sl ON fi.storageLocationID = sl.storageLocationID
-        JOIN Desk_Manager dm ON fi.managerID = dm.managerID
+        FROM found_item_inventory fi
+        JOIN items i ON fi.itemID = i.itemID
+        JOIN storage_location sl ON fi.storageLocationID = sl.storageLocationID
+        JOIN desk_manager dm ON fi.managerID = dm.managerID
         WHERE fi.inventoryID = %s
     '''
     cursor.execute(query, (inventory_id,))
@@ -184,7 +183,7 @@ def update_inventory(inventory_id):
     data = request.json
     current_app.logger.info(f'Updating inventory {inventory_id}: {data}')
     
-    query = 'UPDATE Found_Item_Inventory SET storageLocationID = %s WHERE inventoryID = %s'
+    query = 'UPDATE found_item_inventory SET storageLocationID = %s WHERE inventoryID = %s'
     cursor = db.get_db().cursor()
     cursor.execute(query, (data['storageLocationID'], inventory_id))
     db.get_db().commit()
@@ -197,7 +196,7 @@ def update_inventory(inventory_id):
 @desk.route('/inventory/<int:inventory_id>', methods=['DELETE'])
 def delete_inventory(inventory_id):
     cursor = db.get_db().cursor()
-    cursor.execute('DELETE FROM Found_Item_Inventory WHERE inventoryID = %s', (inventory_id,))
+    cursor.execute('DELETE FROM found_item_inventory WHERE inventoryID = %s', (inventory_id,))
     db.get_db().commit()
     
     response = make_response(jsonify({'message': 'Inventory record deleted'}))
@@ -218,9 +217,9 @@ def get_all_claims():
         SELECT cr.claimID, cr.claimDate, cr.claimerEmail, cr.itemID, cr.managerID,
                i.description as itemDescription,
                dm.name as managerName
-        FROM ClaimRecord cr
-        JOIN Item i ON cr.itemID = i.itemID
-        JOIN Desk_Manager dm ON cr.managerID = dm.managerID
+        FROM claim_record cr
+        JOIN items i ON cr.itemID = i.itemID
+        JOIN desk_manager dm ON cr.managerID = dm.managerID
         WHERE 1=1
     '''
     params = []
@@ -251,7 +250,7 @@ def create_claim():
     current_app.logger.info(f'Creating claim: {data}')
     
     query = '''
-        INSERT INTO ClaimRecord (claimID, claimDate, claimerEmail, itemID, managerID)
+        INSERT INTO claim_record (claimID, claimDate, claimerEmail, itemID, managerID)
         VALUES (%s, %s, %s, %s, %s)
     '''
     cursor = db.get_db().cursor()
@@ -271,9 +270,9 @@ def get_claim(claim_id):
         SELECT cr.claimID, cr.claimDate, cr.claimerEmail, cr.itemID, cr.managerID,
                i.description as itemDescription,
                dm.name as managerName
-        FROM ClaimRecord cr
-        JOIN Item i ON cr.itemID = i.itemID
-        JOIN Desk_Manager dm ON cr.managerID = dm.managerID
+        FROM claim_record cr
+        JOIN items i ON cr.itemID = i.itemID
+        JOIN desk_manager dm ON cr.managerID = dm.managerID
         WHERE cr.claimID = %s
     '''
     cursor.execute(query, (claim_id,))
@@ -301,8 +300,8 @@ def get_all_items():
     query = '''
         SELECT i.itemID, i.description, i.status, i.dateFound, i.daysInStorage,
                i.categoryID, c.categoryName
-        FROM Item i
-        LEFT JOIN Category c ON i.categoryID = c.categoryID
+        FROM items i
+        LEFT JOIN category c ON i.categoryID = c.categoryID
         WHERE 1=1
     '''
     params = []
@@ -339,8 +338,8 @@ def get_item(item_id):
     query = '''
         SELECT i.itemID, i.description, i.status, i.dateFound, i.daysInStorage,
                i.categoryID, c.categoryName
-        FROM Item i
-        LEFT JOIN Category c ON i.categoryID = c.categoryID
+        FROM items i
+        LEFT JOIN category c ON i.categoryID = c.categoryID
         WHERE i.itemID = %s
     '''
     cursor.execute(query, (item_id,))
@@ -359,7 +358,7 @@ def update_item(item_id):
     data = request.json
     current_app.logger.info(f'Updating item {item_id}: {data}')
     
-    query = 'UPDATE Item SET status = %s WHERE itemID = %s'
+    query = 'UPDATE items SET status = %s WHERE itemID = %s'
     cursor = db.get_db().cursor()
     cursor.execute(query, (data['status'], item_id))
     db.get_db().commit()
@@ -372,11 +371,10 @@ def update_item(item_id):
 @desk.route('/items/<int:item_id>', methods=['DELETE'])
 def delete_item(item_id):
     cursor = db.get_db().cursor()
-    # Delete from related tables first
-    cursor.execute('DELETE FROM Found_Item_Report WHERE itemID = %s', (item_id,))
-    cursor.execute('DELETE FROM Found_Item_Inventory WHERE itemID = %s', (item_id,))
-    cursor.execute('DELETE FROM ClaimRecord WHERE itemID = %s', (item_id,))
-    cursor.execute('DELETE FROM Item WHERE itemID = %s', (item_id,))
+    cursor.execute('DELETE FROM found_item_report WHERE itemID = %s', (item_id,))
+    cursor.execute('DELETE FROM found_item_inventory WHERE itemID = %s', (item_id,))
+    cursor.execute('DELETE FROM claim_record WHERE itemID = %s', (item_id,))
+    cursor.execute('DELETE FROM items WHERE itemID = %s', (item_id,))
     db.get_db().commit()
     
     response = make_response(jsonify({'message': 'Item deleted'}))
@@ -395,15 +393,15 @@ def get_all_found_reports():
     date_end = request.args.get('dateEnd')
     
     query = '''
-        SELECT fr.foundReportID, fr.dateFound, fr.condition, fr.userID, 
+        SELECT fr.foundReportID, fr.dateFound, fr.`condition`, fr.userID, 
                fr.locationID, fr.itemID,
                u.name as finderName, u.email, u.phoneNumber,
                l.lastSeenAt as location,
                i.description as itemDescription
-        FROM Found_Item_Report fr
-        JOIN User u ON fr.userID = u.userID
-        JOIN Location l ON fr.locationID = l.locationID
-        JOIN Item i ON fr.itemID = i.itemID
+        FROM found_item_report fr
+        JOIN user u ON fr.userID = u.userID
+        JOIN location l ON fr.locationID = l.locationID
+        JOIN items i ON fr.itemID = i.itemID
         WHERE 1=1
     '''
     params = []
@@ -435,15 +433,15 @@ def get_all_found_reports():
 def get_found_report(report_id):
     cursor = db.get_db().cursor()
     query = '''
-        SELECT fr.foundReportID, fr.dateFound, fr.condition, fr.userID, 
+        SELECT fr.foundReportID, fr.dateFound, fr.`condition`, fr.userID, 
                fr.locationID, fr.itemID,
                u.name as finderName, u.email, u.phoneNumber,
                l.lastSeenAt as location,
                i.description as itemDescription
-        FROM Found_Item_Report fr
-        JOIN User u ON fr.userID = u.userID
-        JOIN Location l ON fr.locationID = l.locationID
-        JOIN Item i ON fr.itemID = i.itemID
+        FROM found_item_report fr
+        JOIN user u ON fr.userID = u.userID
+        JOIN location l ON fr.locationID = l.locationID
+        JOIN items i ON fr.itemID = i.itemID
         WHERE fr.foundReportID = %s
     '''
     cursor.execute(query, (report_id,))
@@ -471,9 +469,9 @@ def get_all_lost_reports():
         SELECT lr.lostReportID, lr.dateLost, lr.userID, lr.locationID,
                u.name as userName, u.email, u.phoneNumber,
                l.lastSeenAt as location
-        FROM Lost_Item_Report lr
-        JOIN User u ON lr.userID = u.userID
-        JOIN Location l ON lr.locationID = l.locationID
+        FROM lost_item_report lr
+        JOIN user u ON lr.userID = u.userID
+        JOIN location l ON lr.locationID = l.locationID
         WHERE 1=1
     '''
     params = []
@@ -504,7 +502,7 @@ def get_all_lost_reports():
 @desk.route('/storage-locations', methods=['GET'])
 def get_storage_locations():
     cursor = db.get_db().cursor()
-    cursor.execute('SELECT storageLocationID, shelfNumber FROM Storage_Location ORDER BY shelfNumber')
+    cursor.execute('SELECT storageLocationID, shelfNumber FROM storage_location ORDER BY shelfNumber')
     data = cursor.fetchall()
     
     response = make_response(jsonify(data))
@@ -516,7 +514,7 @@ def get_storage_locations():
 @desk.route('/managers', methods=['GET'])
 def get_all_managers():
     cursor = db.get_db().cursor()
-    cursor.execute('SELECT managerID, name, phoneNumber, email FROM Desk_Manager ORDER BY name')
+    cursor.execute('SELECT managerID, name, phoneNumber, email FROM desk_manager ORDER BY name')
     data = cursor.fetchall()
     
     response = make_response(jsonify(data))
@@ -527,7 +525,7 @@ def get_all_managers():
 @desk.route('/managers/<int:manager_id>', methods=['GET'])
 def get_manager(manager_id):
     cursor = db.get_db().cursor()
-    cursor.execute('SELECT managerID, name, phoneNumber, email FROM Desk_Manager WHERE managerID = %s', (manager_id,))
+    cursor.execute('SELECT managerID, name, phoneNumber, email FROM desk_manager WHERE managerID = %s', (manager_id,))
     data = cursor.fetchall()
     
     response = make_response(jsonify(data))
@@ -539,7 +537,7 @@ def get_manager(manager_id):
 @desk.route('/categories', methods=['GET'])
 def get_categories():
     cursor = db.get_db().cursor()
-    cursor.execute('SELECT categoryID, categoryName FROM Category ORDER BY categoryName')
+    cursor.execute('SELECT categoryID, categoryName FROM category ORDER BY categoryName')
     data = cursor.fetchall()
     
     response = make_response(jsonify(data))
@@ -551,7 +549,7 @@ def get_categories():
 @desk.route('/locations', methods=['GET'])
 def get_locations():
     cursor = db.get_db().cursor()
-    cursor.execute('SELECT locationID, lastSeenAt FROM Location ORDER BY lastSeenAt')
+    cursor.execute('SELECT locationID, lastSeenAt FROM location ORDER BY lastSeenAt')
     data = cursor.fetchall()
     
     response = make_response(jsonify(data))
