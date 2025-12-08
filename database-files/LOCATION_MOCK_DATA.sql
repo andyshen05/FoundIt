@@ -1,0 +1,14 @@
+INSERT INTO location (locationID, lastSeenAt) VALUES ('1', 'cabot');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('2', 'curry');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('3', 'snell library');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('4', 'ricahrds');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('5', 'hayden');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('6', 'lake');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('7', 'ell');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('8', 'dodge');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('9', 'hastings');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('10', 'stetson east');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('11', 'stetson west');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('12', 'behrakis');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('13', 'west village');
+INSERT INTO location (locationID, lastSeenAt) VALUES ('14', 'east village');

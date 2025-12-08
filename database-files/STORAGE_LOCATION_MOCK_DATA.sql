@@ -1,0 +1,10 @@
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf B', '1');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf A', '2');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Cabinet A', '3');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Drawer C', '4');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf C', '5');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf B', '6');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf A', '7');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Cabinet A', '8');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Drawer C', '9');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf C', '10');
