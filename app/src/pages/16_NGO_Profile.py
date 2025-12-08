@@ -19,7 +19,7 @@ if item_id is None:
     )
 else:
     # API endpoint
-    API_URL = f"http://web-api:4000/ngo/ngos/{item_id}"
+    API_URL = f"http://web-api:4000/foundit/ngos/{item_id}"
 
     try:
         # Fetch Item details

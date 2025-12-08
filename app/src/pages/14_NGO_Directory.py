@@ -9,7 +9,7 @@ SideBarLinks()
 st.title("Found Item Directory")
 
 # API endpoint
-API_URL = "http://web-api:4000/ngo/ngos"
+API_URL = "http://web-api:4000/foundit/ngos"
 
 # Create filter columns
 col1, col2, col3 = st.columns(3)

@@ -45,7 +45,7 @@ if st.session_state.reset_form:
     st.session_state.reset_form = False
 
 # API endpoint
-API_URL = "http://web-api:4000/ngo/ngos"
+API_URL = "http://web-api:4000/foundit/ngos"
 
 # Create a form for NGO details with dynamic key to force reset
 with st.form(f"add_report_{st.session_state.form_key_counter}"):
