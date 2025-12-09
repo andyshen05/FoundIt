@@ -9,17 +9,23 @@ st.set_page_config(layout = 'wide')
 # Show appropriate sidebar links for the role of the currently logged in user
 SideBarLinks()
 
-st.title(f"Welcome, Student {st.session_state['first_name']}.")
+st.title(f"Welcome Desk Manager, {st.session_state['first_name']}.")
 st.write('')
 st.write('')
 st.write('### What would you like to do today?')
 
-if st.button('Submit Missing Item Report', 
+if st.button('View Item Catalogue', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/01_Missing_Item.py')
+  st.switch_page('pages/14_Item_Catalogue.py')
 
-if st.button('View All Found Items in Storage', 
+if st.button('View Lost Item Reports', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/02_Item_Catelogue.py')
+  st.switch_page('pages/15_Add_NGO.py')
+
+if st.button('View User Contact Information', 
+             type='primary',
+             use_container_width=True):
+  st.switch_page('pages/02_Item_Catalogue.py')
+  
