@@ -22,4 +22,9 @@ if st.button('Submit Missing Item Report',
 if st.button('View All Found Items in Storage', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/02_Item_Catelogue.py')
+  st.switch_page('pages/14_Item_Catalogue.py')
+
+if st.button('Report a Malicious User', 
+            type='primary',
+            use_container_width=True):
+  st.switch_page('pages/02_Item_Catalogue.py')
