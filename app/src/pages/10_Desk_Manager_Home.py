@@ -22,10 +22,10 @@ if st.button('View Item Catalogue',
 if st.button('View Lost Item Reports', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/15_Add_NGO.py')
+  st.switch_page('pages/13_Lost_Item_Reports.py')
 
 if st.button('View User Contact Information', 
              type='primary',
              use_container_width=True):
-  st.switch_page('pages/02_Item_Catalogue.py')
+  st.switch_page('pages/16_User_Database.py')
   

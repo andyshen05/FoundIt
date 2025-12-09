@@ -1,64 +1,79 @@
-import logging
-logger = logging.getLogger(__name__)
 import streamlit as st
-import pandas as pd
-from sklearn import datasets
-from sklearn.ensemble import RandomForestClassifier
+import requests
 from streamlit_extras.app_logo import add_logo
 from modules.nav import SideBarLinks
 
+# Initialize sidebar
 SideBarLinks()
 
-st.write("""
-# Simple Iris Flower Prediction App
+st.title("Lost Item Reports")
 
-This example is borrowed from [The Data Professor](https://github.com/dataprofessor/streamlit_freecodecamp/tree/main/app_7_classification_iris)
-         
-This app predicts the **Iris flower** type!
-""")
+# API endpoint
+API_URL = "http://web-api:4000/foundit/lost_item_reports"
 
-st.sidebar.header('User Input Parameters')
+# Create filter columns
+col1, col2, col3 = st.columns(3)
 
-# Below, different user inputs are defined.  When you view the UI, 
-# notice that they are in the sidebar. 
-def user_input_features():
-    sepal_length = st.sidebar.slider('Sepal length', 4.3, 7.9, 5.4)
-    sepal_width = st.sidebar.slider('Sepal width', 2.0, 4.4, 3.4)
-    petal_length = st.sidebar.slider('Petal length', 1.0, 6.9, 1.3)
-    petal_width = st.sidebar.slider('Petal width', 0.1, 2.5, 0.2)
-    data = {'sepal_length': sepal_length,
-            'sepal_width': sepal_width,
-            'petal_length': petal_length,
-            'petal_width': petal_width}
-    features = pd.DataFrame(data, index=[0])
-    return features
+# Get unique values for filters from the API
+try:
+    response = requests.get(API_URL)
+    if response.status_code == 200:
+        items = response.json()
 
-# get a data frame with the input features from the user
-df = user_input_features()
+        # Extract unique values for filters
+        items = sorted(list(set(item["Item"] for item in items)))
+        locations = sorted(list(set(item["Location"] for item in items)))
+        dates = sorted(list(set(item["Date_Lost"] for item in items)))
 
-# show the exact values the user entered in a table.
-st.subheader('User Input parameters')
-st.write(df)
+        # Create filters
+        with col1:
+            selected_item = st.selectbox("Filter by Item", ["All"] + items)
 
-# load the standard iris dataset and generate a 
-# random forest classifier 
-iris = datasets.load_iris()
-X = iris.data
-Y = iris.target
-clf = RandomForestClassifier()
+        with col2:
+            selected_location = st.selectbox("Filter by Location", ["All"] + locations)
 
-# fit the model
-clf.fit(X, Y)
+        with col3:
+            selected_date = st.selectbox(
+                "Filter by Date",
+                ["All"] + [str(date) for date in dates],
+            )
 
-# use the values entered by the user for prediction
-prediction = clf.predict(df)
-prediction_proba = clf.predict_proba(df)
+        # Build query parameters
+        params = {}
+        if selected_item != "All":
+            params["item"] = selected_item
+        if selected_location != "All":
+            params["locations"] = selected_location
+        if selected_date != "All":
+            params["dates"] = selected_date
 
-st.subheader('Class labels and their corresponding index number')
-st.write(iris.target_names)
+        # Get filtered data
+        filtered_response = requests.get(API_URL, params=params)
+        if filtered_response.status_code == 200:
+            filtered_items = filtered_response.json()
 
-st.subheader('Prediction')
-st.write(iris.target_names[prediction])
+            # Display results count
+            st.write(f"Found {len(filtered_items)} Items")
 
-st.subheader('Prediction Probability')
-st.write(prediction_proba)
+            # Create expandable rows for each item
+            for item in filtered_items:
+                with st.expander(f"{item['Name']} ({item['Location']})"):
+                    col1, col2 = st.columns(2)
+
+                    with col1:
+                        st.write("**Basic Information**")
+                        st.write(f"**Item:** {item['Item']}")
+                        st.write(f"**Location:** {item['Location']}")
+                        st.write(f"**Date Lost:** {item['Date_Lost']}")
+
+                    with col2:
+                        st.write("**Contact Information**")
+                        st.write(f"**Email:** [{item['Email']}]")
+                        st.write(f"**Phone Number:** [{item['Phone']}]")
+
+    else:
+        st.error("Failed to fetch item data from the API")
+
+except requests.exceptions.RequestException as e:
+    st.error(f"Error connecting to the API: {str(e)}")
+    st.info("Please ensure the API server is running on http://web-api:4000")

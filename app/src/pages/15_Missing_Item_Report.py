@@ -30,7 +30,7 @@ def show_success_dialog(item_name):
         if st.button("Return to Found Item Catalogue", use_container_width=True):
             st.session_state.show_success_modal = False
             st.session_state.success_report_name = ""
-            st.switch_page("pages/14_NGO_Directory.py")
+            st.switch_page("pages/14_Item_Catalogue.py")
     
     with col2:
         if st.button("Create Another Report", use_container_width=True):
@@ -49,7 +49,7 @@ API_URL = "http://web-api:4000/foundit/lost_item_report"
 
 # Create a form for NGO details with dynamic key to force reset
 with st.form(f"add_report_{st.session_state.form_key_counter}"):
-    st.subheader("Item Information")
+    st.subheader("Missing Item Reports")
 
     # Required fields
     name = st.text_input("Item Name *")
@@ -98,4 +98,4 @@ if st.session_state.show_success_modal:
 
 # Add a button to return to the NGO Directory
 if st.button("Return to Found Item Catalogue"):
-    st.switch_page("pages/14_NGO_Directory.py")
+    st.switch_page("pages/14_Item_Catalogue.py")

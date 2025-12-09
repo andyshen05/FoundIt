@@ -6,59 +6,55 @@ from modules.nav import SideBarLinks
 # Initialize sidebar
 SideBarLinks()
 
-st.title("Item Report")
+st.title("User Information")
 
-# Get ITEM ID from session state
-item_id = st.session_state.get("selected_item_id")
+# API endpoint
+API_URL = "http://web-api:4000/foundit/user"
 
-if item_id is None:
-    st.error("No Item selected")
-    st.button(
-        "Return to Item Catalogue",
-        on_click=lambda: st.switch_page("pages/14_NGO_Directory.py"),
-    )
-else:
-    # API endpoint
-    API_URL = f"http://web-api:4000/foundit/ngos/{item_id}"
+# Create filter columns
+col1, col2, col3 = st.columns(3)
 
-    try:
-        # Fetch Item details
-        response = requests.get(API_URL)
+# Get unique values for filters from the API
+try:
+    response = requests.get(API_URL)
+    if response.status_code == 200:
+        users = response.json()
 
-        if response.status_code == 200:
-            item = response.json()
+        # Extract unique values for filters
+        status = sorted(list(set(user["accStatus"] for user in users)))
 
-            # Display basic information
-            st.header(item["Name"])
+        # Create filters
+        with col1:
+            selected_status = st.selectbox("Filter by Status", ["All"] + status)
 
-            col1, col2 = st.columns(2)
+        # Build query parameters
+        params = {}
+        if selected_status != "All":
+            params["accStatus"] = selected_status
 
-            with col1:
-                st.subheader("Basic Information")
-                st.write(f"**Item:** {item['Country']}")
-                st.write(f"**Location Found:** {item['Location_Found']}")
-                st.write(f"**Date Found:** {item['Date_Found']}")
-                st.write(f"**Description:** {item['Description']}")
+        # Get filtered data
+        filtered_response = requests.get(API_URL, params=params)
+        if filtered_response.status_code == 200:
+            filtered_items = filtered_response.json()
 
-            with col2:
-                st.write("**Contact Information**")
-                st.write(f"**Email:** [{item['Email']}]")
-                st.write(f"**Phone Number:** [{item['Phone']}]")
+            # Display results count
+            st.write(f"Found {len(filtered_items)} Users")
 
-        elif response.status_code == 404:
-            st.error("Item not found")
-        else:
-            st.error(
-                f"Error fetching item data: {response.json().get('error', 'Unknown error')}"
-            )
+            # Create expandable rows for each item
+            for item in filtered_items:
+                with st.expander(f"{item['name']} ({item['email']})"):
+                    col1 = st.columns(1)
 
-    except requests.exceptions.RequestException as e:
-        st.error(f"Error connecting to the API: {str(e)}")
-        st.info("Please ensure the API server is running")
+                    with col1:
+                        st.write("**Contact Information**")
+                        st.write(f"**Name:** [{item['nane']}]")
+                        st.write(f"**Email:** [{item['email']}]")
+                        st.write(f"**Phone Number:** [{item['phoneNumber']}]")
+                        st.write(f"**Status:** [{item['accStatus']}]")
 
-# Add a button to return to the Item Catalogue
-if st.button("Return to Item Catalogue"):
-    # Clear the selected Item ID from session state
-    if "selected_item_id" in st.session_state:
-        del st.session_state["selected_item_id"]
-    st.switch_page("pages/14_NGO_Directory.py")
+    else:
+        st.error("Failed to fetch item data from the API")
+
+except requests.exceptions.RequestException as e:
+    st.error(f"Error connecting to the API: {str(e)}")
+    st.info("Please ensure the API server is running on http://web-api:4000")

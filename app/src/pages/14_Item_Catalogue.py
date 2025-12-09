@@ -9,7 +9,7 @@ SideBarLinks()
 st.title("Found Item Directory")
 
 # API endpoint
-API_URL = "http://web-api:4000/foundit/ngos"
+API_URL = "http://web-api:4000/foundit/found_item_inventory"
 
 # Create filter columns
 col1, col2, col3 = st.columns(3)
@@ -70,11 +70,6 @@ try:
                         st.write("**Contact Information**")
                         st.write(f"**Email:** [{item['Email']}]")
                         st.write(f"**Phone Number:** [{item['Phone']}]")
-
-                    # Add a button to view full report
-                    if st.button(f"View Full Report", key=f"view_{item['ITEM_ID']}"):
-                        st.session_state["selected_item_id"] = item["ITEM_ID"]
-                        st.switch_page("pages/16_NGO_Profile.py")
 
     else:
         st.error("Failed to fetch item data from the API")
