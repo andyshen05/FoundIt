@@ -11,872 +11,827 @@ INSERT INTO admin (adminID, email) VALUES ('8', 'teltone7@example.com');
 INSERT INTO admin (adminID, email) VALUES ('9', 'ltrace8@ebay.co.uk');
 INSERT INTO admin (adminID, email) VALUES ('10', 'dwhetnall9@w3.org');
 
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/30/2025', '4', '55');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/18/2025', '0', '23');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/29/2025', '5', '101');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/19/2025', '6', '29');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/2/2025', '8', '126');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/10/2025', '3', '24');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/9/2025', '8', '84');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/22/2025', '5', '34');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/17/2025', '5', '169');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/7/2025', '5', '157');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/6/2025', '7', '28');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/4/2025', '2', '77');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/31/2025', '8', '70');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/13/2025', '0', '43');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/26/2025', '4', '104');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/3/2025', '10', '60');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/15/2025', '2', '178');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/10/2025', '4', '65');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/25/2024', '1', '18');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/20/2025', '4', '19');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/12/2024', '2', '74');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/11/2025', '10', '9');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/21/2025', '9', '115');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/26/2024', '9', '42');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/7/2025', '9', '17');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/2/2025', '9', '155');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/1/2025', '8', '98');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/9/2025', '1', '159');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/21/2025', '6', '90');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/10/2025', '8', '125');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/21/2025', '3', '34');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/8/2025', '7', '162');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/11/2025', '3', '20');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/19/2025', '9', '133');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/10/2025', '9', '177');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/4/2025', '4', '148');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/9/2025', '3', '195');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/28/2025', '7', '112');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/29/2025', '8', '193');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/12/2025', '0', '167');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/8/2025', '6', '154');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/15/2025', '0', '71');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/22/2024', '5', '11');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/29/2025', '3', '183');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/14/2025', '3', '59');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/10/2025', '6', '41');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/1/2025', '0', '47');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/5/2025', '2', '194');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/26/2025', '4', '11');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/7/2024', '6', '86');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/19/2024', '5', '148');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/9/2025', '10', '61');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/26/2025', '6', '155');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/14/2024', '6', '105');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/17/2025', '3', '33');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/14/2025', '5', '52');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/22/2025', '7', '36');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/6/2025', '5', '42');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/21/2025', '10', '24');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/13/2025', '0', '169');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/5/2025', '1', '53');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/30/2025', '9', '127');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/30/2025', '3', '51');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/29/2025', '6', '79');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/20/2025', '3', '92');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/28/2025', '7', '187');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/12/2025', '10', '27');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/28/2024', '3', '137');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/26/2025', '6', '155');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/24/2025', '5', '178');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/13/2025', '9', '199');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/21/2025', '1', '3');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/9/2025', '5', '72');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/7/2025', '2', '189');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/29/2025', '9', '147');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/29/2025', '8', '71');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/20/2025', '6', '33');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/15/2025', '3', '187');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/13/2025', '5', '109');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/13/2025', '6', '109');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/3/2025', '5', '6');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/3/2025', '4', '86');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/13/2025', '5', '172');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/1/2025', '4', '187');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/18/2025', '9', '121');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/14/2025', '7', '192');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/8/2025', '3', '67');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/13/2025', '3', '108');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/5/2025', '0', '36');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/16/2025', '7', '25');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/22/2024', '0', '56');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/9/2025', '5', '149');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/22/2025', '4', '12');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/23/2025', '4', '130');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/2/2025', '8', '169');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/29/2025', '10', '193');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/21/2025', '5', '18');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/27/2024', '2', '29');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/17/2025', '5', '73');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/30/2025', '6', '140');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/13/2025', '6', '85');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/3/2025', '8', '63');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/15/2024', '1', '99');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/10/2025', '4', '129');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/23/2025', '5', '57');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/29/2025', '9', '100');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/22/2025', '10', '39');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/8/2025', '5', '9');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/21/2025', '0', '198');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/22/2025', '3', '9');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/9/2025', '8', '32');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/8/2025', '10', '142');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/24/2025', '6', '105');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/25/2025', '1', '1');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/12/2025', '9', '41');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/18/2025', '6', '28');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/18/2025', '10', '171');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/26/2025', '5', '148');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/5/2025', '1', '185');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/9/2025', '1', '13');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/14/2025', '0', '12');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/17/2025', '8', '124');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/28/2025', '8', '63');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/17/2025', '9', '113');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/7/2025', '6', '90');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/23/2025', '5', '169');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/29/2025', '9', '5');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/14/2025', '5', '15');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/27/2025', '3', '126');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/22/2025', '8', '42');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/28/2025', '3', '20');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/13/2025', '4', '120');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/18/2025', '5', '126');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/14/2025', '2', '116');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/6/2025', '1', '44');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/25/2025', '8', '58');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/13/2025', '9', '199');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/11/2025', '5', '191');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/10/2025', '1', '191');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/6/2025', '1', '123');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/16/2025', '8', '172');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/31/2025', '7', '173');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/6/2025', '5', '106');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/24/2025', '9', '150');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/3/2025', '10', '85');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/15/2025', '3', '138');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/12/2025', '9', '69');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/29/2025', '8', '25');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/1/2025', '6', '27');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/3/2025', '4', '57');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/6/2025', '1', '117');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/13/2025', '7', '157');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/7/2025', '4', '185');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/4/2025', '6', '51');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/12/2025', '3', '1');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/8/2025', '2', '96');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/17/2024', '5', '177');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/12/2025', '3', '175');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/24/2025', '9', '62');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/8/2025', '6', '171');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/31/2025', '7', '61');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/1/2025', '5', '87');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/11/2025', '1', '103');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/2/2025', '9', '163');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/31/2025', '7', '102');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/11/2025', '1', '71');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/14/2025', '1', '95');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('8/17/2025', '5', '194');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/15/2025', '7', '70');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/10/2025', '0', '103');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/4/2025', '4', '106');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/1/2025', '10', '110');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/23/2025', '2', '176');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('5/30/2025', '4', '76');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/12/2025', '3', '70');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/10/2025', '4', '147');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/11/2025', '9', '77');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/14/2025', '3', '132');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/4/2025', '9', '137');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/5/2025', '9', '105');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/11/2025', '4', '103');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/24/2025', '4', '70');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/2/2025', '1', '163');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/14/2025', '3', '192');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/14/2025', '9', '167');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('9/20/2025', '6', '80');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/23/2025', '4', '9');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/8/2025', '7', '44');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('4/27/2025', '1', '170');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('2/2/2025', '8', '191');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/7/2024', '3', '129');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/20/2025', '2', '90');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('12/14/2024', '1', '180');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/17/2025', '4', '104');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('7/26/2025', '7', '183');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('3/2/2025', '0', '164');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('11/18/2025', '10', '22');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('1/23/2025', '1', '61');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('6/21/2025', '5', '45');
-INSERT INTO analytics (timeStamp, adminID, analyticsID) VALUES ('10/30/2025', '5', '100');
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-30 00:00:00', 4, 1);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-18 00:00:00', 7, 2);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-29 00:00:00', 5, 3);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-19 00:00:00', 6, 4);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-02 00:00:00', 8, 5);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-10 00:00:00', 3, 6);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-09 00:00:00', 8, 7);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-22 00:00:00', 5, 8);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-17 00:00:00', 5, 9);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-07 00:00:00', 5, 10);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-06 00:00:00', 7, 11);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-04 00:00:00', 2, 12);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-31 00:00:00', 8, 13);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-13 00:00:00', 4, 14);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-26 00:00:00', 4, 15);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-03 00:00:00', 10, 16);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-15 00:00:00', 2, 17);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-10 00:00:00', 4, 18);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-25 00:00:00', 1, 19);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-20 00:00:00', 4, 20);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-12 00:00:00', 2, 21);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-11 00:00:00', 10, 22);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-21 00:00:00', 9, 23);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-26 00:00:00', 9, 24);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-07 00:00:00', 9, 25);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-02 00:00:00', 9, 26);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-01 00:00:00', 8, 27);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-09 00:00:00', 1, 28);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-21 00:00:00', 6, 29);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-10 00:00:00', 8, 30);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-21 00:00:00', 3, 31);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-08 00:00:00', 7, 32);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-11 00:00:00', 3, 33);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-19 00:00:00', 9, 34);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-10 00:00:00', 9, 35);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-12-04 00:00:00', 4, 36);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-09 00:00:00', 3, 37);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-28 00:00:00', 7, 38);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-29 00:00:00', 8, 39);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-12 00:00:00', 6, 40);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-08 00:00:00', 6, 41);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-15 00:00:00', 3, 42);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-22 00:00:00', 5, 43);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-29 00:00:00', 3, 44);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-14 00:00:00', 3, 45);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-10 00:00:00', 6, 46);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-01 00:00:00', 8, 47);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-05 00:00:00', 2, 48);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-26 00:00:00', 4, 49);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-07 00:00:00', 6, 50);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-19 00:00:00', 5, 51);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-09 00:00:00', 10, 52);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-26 00:00:00', 6, 53);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-14 00:00:00', 6, 54);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-17 00:00:00', 3, 55);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-14 00:00:00', 5, 56);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-22 00:00:00', 7, 57);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-06 00:00:00', 5, 58);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-21 00:00:00', 10, 59);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-13 00:00:00', 2, 60);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-05 00:00:00', 1, 61);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-30 00:00:00', 9, 62);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-30 00:00:00', 3, 63);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-29 00:00:00', 6, 64);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-20 00:00:00', 3, 65);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-28 00:00:00', 7, 66);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-12 00:00:00', 10, 67);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-28 00:00:00', 3, 68);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-26 00:00:00', 6, 69);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-24 00:00:00', 5, 70);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-13 00:00:00', 9, 71);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-21 00:00:00', 1, 72);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-09 00:00:00', 5, 73);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-07 00:00:00', 2, 74);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-29 00:00:00', 9, 75);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-29 00:00:00', 8, 76);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-20 00:00:00', 6, 77);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-15 00:00:00', 3, 78);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-13 00:00:00', 5, 79);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-13 00:00:00', 6, 80);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-03 00:00:00', 5, 81);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-03 00:00:00', 4, 82);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-13 00:00:00', 5, 83);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-01 00:00:00', 4, 84);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-18 00:00:00', 9, 85);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-14 00:00:00', 7, 86);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-08 00:00:00', 3, 87);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-13 00:00:00', 3, 88);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-05 00:00:00', 6, 89);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-16 00:00:00', 7, 90);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-22 00:00:00', 4, 91);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-09 00:00:00', 5, 92);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-22 00:00:00', 4, 93);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-23 00:00:00', 4, 94);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-12-02 00:00:00', 8, 95);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-29 00:00:00', 10, 96);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-21 00:00:00', 5, 97);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-27 00:00:00', 2, 98);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-17 00:00:00', 5, 99);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-30 00:00:00', 6, 100);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-13 00:00:00', 6, 101);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-03 00:00:00', 8, 102);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2024-12-15 00:00:00', 1, 103);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-10 00:00:00', 4, 104);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-23 00:00:00', 5, 105);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-29 00:00:00', 9, 106);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-22 00:00:00', 10, 107);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-08 00:00:00', 5, 108);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-21 00:00:00', 6, 109);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-22 00:00:00', 3, 110);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-09 00:00:00', 8, 111);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-08 00:00:00', 10, 112);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-24 00:00:00', 6, 113);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-07-25 00:00:00', 1, 114);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-12 00:00:00', 9, 115);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-18 00:00:00', 6, 116);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-18 00:00:00', 10, 117);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-26 00:00:00', 5, 118);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-05 00:00:00', 1, 119);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-09 00:00:00', 1, 120);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-14 00:00:00', 6, 121);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-17 00:00:00', 8, 122);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-03-28 00:00:00', 8, 123);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-17 00:00:00', 9, 124);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-07 00:00:00', 6, 125);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-23 00:00:00', 5, 126);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-29 00:00:00', 9, 127);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-14 00:00:00', 5, 128);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-27 00:00:00', 3, 129);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-22 00:00:00', 8, 130);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-28 00:00:00', 3, 131);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-13 00:00:00', 4, 132);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-09-18 00:00:00', 5, 133);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-10-14 00:00:00', 2, 134);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-06 00:00:00', 1, 135);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-08-25 00:00:00', 8, 136);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-13 00:00:00', 9, 137);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-11 00:00:00', 5, 138);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-10 00:00:00', 1, 139);
+INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-06 00:00:00', 1, 140);
 
-INSERT INTO category (categoryName, categoryID) VALUES ('Clothing', '1');
-INSERT INTO category (categoryName, categoryID) VALUES ('Electronics', '2');
-INSERT INTO category (categoryName, categoryID) VALUES ('Water bottles', '3');
-INSERT INTO category (categoryName, categoryID) VALUES ('ID Cards', '4');
+INSERT INTO category (categoryID, categoryName) VALUES
+(1, 'Clothing'),
+(2, 'Electronics'),
+(3, 'Water bottles'),
+(4, 'ID Cards');
 
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('4/19/2025', 'wklulisek0@state.tx.us', '1', '1', '729');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('9/22/2025', 'rfreddi1@nyu.edu', '2', '1', '730');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('3/1/2025', 'treymers2@live.com', '3', '2', '731');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('3/12/2025', 'hharmant3@yellowbook.com', '4', '1', '732');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('7/28/2025', 'akibel4@taobao.com', '5', '3', '733');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('9/6/2025', 'ngerson5@ifeng.com', '6', '2', '734');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('7/31/2025', 'jcallway6@webs.com', '7', '2', '735');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('8/14/2025', 'ljoseff7@hp.com', '8', '1', '736');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('6/14/2025', 'rtomisch8@chicagotribune.com', '9', '2', '737');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('8/30/2025', 'cgentle9@comsenz.com', '10', '1', '738');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('12/22/2024', 'mespadatea@multiply.com', '11', '2', '739');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('1/29/2025', 'ftebbittb@ed.gov', '12', '1', '740');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('12/25/2024', 'ncabottoc@google.com.au', '13', '1', '741');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('8/27/2025', 'mdriffed@eventbrite.com', '14', '3', '742');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('7/17/2025', 'gkettlese@wikia.com', '15', '3', '743');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('7/27/2025', 'jmesshamf@joomla.org', '16', '2', '744');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('7/15/2025', 'sridwoodg@amazon.co.uk', '17', '1', '745');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('12/1/2025', 'fdovidianh@mac.com', '18', '3', '746');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('4/25/2025', 'trobertssoni@a8.net', '19', '1', '747');
-INSERT INTO claim_record (claimDate, claimerEmail, itemID, managerID, claimID) VALUES ('9/15/2025', 'ehargessj@eventbrite.com', '20', '2', '748');
+INSERT INTO claim_record (claimID, claimDate, claimerEmail, itemID, managerID) VALUES
+(729, '2025-04-19 00:00:00', 'wklulisek0@state.tx.us', 1, 1),
+(730, '2025-09-22 00:00:00', 'rfreddi1@nyu.edu', 2, 1),
+(731, '2025-03-01 00:00:00', 'treymers2@live.com', 3, 2),
+(732, '2025-03-12 00:00:00', 'hharmant3@yellowbook.com', 4, 1),
+(733, '2025-07-28 00:00:00', 'akibel4@taobao.com', 5, 3),
+(734, '2025-09-06 00:00:00', 'ngerson5@ifeng.com', 6, 2),
+(735, '2025-07-31 00:00:00', 'jcallway6@webs.com', 7, 2),
+(736, '2025-08-14 00:00:00', 'ljoseff7@hp.com', 8, 1),
+(737, '2025-06-14 00:00:00', 'rtomisch8@chicagotribune.com', 9, 2),
+(738, '2025-08-30 00:00:00', 'cgentle9@comsenz.com', 10, 1),
+(739, '2024-12-22 00:00:00', 'mespadatea@multiply.com', 11, 2),
+(740, '2025-01-29 00:00:00', 'ftebbittb@ed.gov', 12, 1),
+(741, '2024-12-25 00:00:00', 'ncabottoc@google.com.au', 13, 1),
+(742, '2025-08-27 00:00:00', 'mdriffed@eventbrite.com', 14, 3),
+(743, '2025-07-17 00:00:00', 'gkettlese@wikia.com', 15, 3),
+(744, '2025-07-27 00:00:00', 'jmesshamf@joomla.org', 16, 2),
+(745, '2025-07-15 00:00:00', 'sridwoodg@amazon.co.uk', 17, 1),
+(746, '2025-12-01 00:00:00', 'fdovidianh@mac.com', 18, 3),
+(747, '2025-04-25 00:00:00', 'trobertssoni@a8.net', 19, 1),
+(748, '2025-09-15 00:00:00', 'ehargessj@eventbrite.com', 20, 2);
 
-INSERT INTO desk_manager (name, phoneNumber, email, managerID) VALUES ('Jordan Walsh', '432-162-5235', 'jwalsh@celtics.com', '1');
-INSERT INTO desk_manager (name, phoneNumber, email, managerID) VALUES ('Jaylen Brown', '546-541-5991', 'jbrown@celtics.com', '2');
-INSERT INTO desk_manager (name, phoneNumber, email, managerID) VALUES ('Joe Mazzula', '781-312-9182', 'jmazzula@celtics.com', '3');
+INSERT INTO desk_manager (managerID, name, phoneNumber, email) VALUES
+(1, 'Jordan Walsh', '432-162-5235', 'jwalsh@celtics.com'),
+(2, 'Jaylen Brown', '546-541-5991', 'jbrown@celtics.com'),
+(3, 'Joe Mazzula', '781-312-9182', 'jmazzula@celtics.com');
 
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('8/3/2025', '3', '213', 'Shelf B', '1');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('3/15/2025', '1', '240', 'Cabinet A', '2');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('5/24/2025', '1', '267', 'Cabinet A', '3');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('11/12/2025', '3', '218', 'Cabinet A', '4');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('7/5/2025', '2', '245', 'Shelf C', '5');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('8/23/2025', '3', '272', 'Shelf C', '6');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('3/11/2025', '1', '223', 'Drawer C', '7');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('11/22/2025', '2', '250', 'Drawer C', '8');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('6/29/2025', '1', '277', 'Shelf B', '9');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('5/4/2025', '3', '228', 'Shelf B', '10');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('6/10/2025', '1', '255', 'Drawer C', '11');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('10/30/2025', '2', '282', 'Drawer C', '12');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('6/2/2025', '1', '233', 'Cabinet A', '13');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('8/28/2025', '3', '260', 'Shelf C', '14');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('8/17/2025', '1', '287', 'Shelf C', '15');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('5/14/2025', '3', '238', 'Shelf B', '16');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('12/20/2024', '2', '265', 'Shelf C', '17');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('4/11/2025', '1', '216', 'Shelf A', '18');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('9/25/2025', '1', '243', 'Cabinet A', '19');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('7/3/2025', '3', '270', 'Shelf B', '20');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('3/10/2025', '2', '221', 'Cabinet A', '21');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('6/9/2025', '1', '248', 'Shelf A', '22');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('4/3/2025', '3', '275', 'Shelf A', '23');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('10/26/2025', '2', '226', 'Shelf B', '24');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('4/2/2025', '1', '253', 'Shelf C', '25');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('5/20/2025', '2', '280', 'Shelf A', '26');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('4/12/2025', '3', '231', 'Shelf B', '27');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('3/5/2025', '3', '258', 'Shelf A', '28');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('6/10/2025', '2', '285', 'Cabinet A', '29');
-INSERT INTO found_item_inventory (dateRecieved, managerID, itemID, storageLocationID, inventoryID) VALUES ('4/5/2025', '1', '236', 'Drawer C', '30');
+INSERT INTO found_item_inventory (dateReceived, managerID, itemID, storageLocationID, inventoryID) VALUES
+('2025-08-03 00:00:00', 3, 14, 2, 1),
+('2025-03-15 00:00:00', 1, 7, 4, 2),
+('2025-05-24 00:00:00', 1, 22, 4, 3),
+('2025-11-12 00:00:00', 3, 3, 4, 4),
+('2025-07-05 00:00:00', 2, 19, 3, 5),
+('2025-08-23 00:00:00', 3, 27, 3, 6),
+('2025-03-11 00:00:00', 1, 9, 5, 7),
+('2025-11-22 00:00:00', 2, 1, 5, 8),
+('2025-06-29 00:00:00', 1, 12, 2, 9),
+('2025-05-04 00:00:00', 3, 10, 2, 10),
+('2025-06-10 00:00:00', 1, 18, 5, 11),
+('2025-10-30 00:00:00', 2, 25, 5, 12),
+('2025-06-02 00:00:00', 1, 8, 4, 13),
+('2025-08-28 00:00:00', 3, 20, 3, 14),
+('2025-08-17 00:00:00', 1, 30, 3, 15),
+('2025-05-14 00:00:00', 3, 11, 2, 16),
+('2024-12-20 00:00:00', 2, 6, 3, 17),
+('2025-04-11 00:00:00', 1, 2, 1, 18),
+('2025-09-25 00:00:00', 1, 21, 4, 19),
+('2025-07-03 00:00:00', 3, 16, 2, 20),
+('2025-03-10 00:00:00', 2, 4, 4, 21),
+('2025-06-09 00:00:00', 1, 23, 1, 22),
+('2025-04-03 00:00:00', 3, 5, 1, 23),
+('2025-10-26 00:00:00', 2, 17, 2, 24),
+('2025-04-02 00:00:00', 1, 28, 3, 25),
+('2025-05-20 00:00:00', 2, 13, 1, 26),
+('2025-04-12 00:00:00', 3, 24, 2, 27),
+('2025-03-05 00:00:00', 3, 26, 1, 28),
+('2025-06-10 00:00:00', 2, 29, 4, 29),
+('2025-04-05 00:00:00', 1, 15, 5, 30);
 
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('1', '8', '3', '29', '6/18/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('2', '6', '9', '25', '1/1/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('3', '26', '12', '25', '11/3/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('4', '47', '7', '2', '10/30/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('5', '18', '14', '22', '6/18/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('6', '32', '1', '6', '7/29/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('7', '37', '1', '3', '9/30/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('8', '44', '6', '16', '7/30/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('9', '9', '3', '29', '8/5/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('10', '28', '9', '21', '5/11/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('11', '33', '13', '12', '11/12/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('12', '20', '9', '2', '4/9/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('13', '8', '12', '5', '12/20/2024', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('14', '48', '7', '14', '9/21/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('15', '7', '13', '26', '12/6/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('16', '14', '2', '5', '2/8/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('17', '27', '13', '29', '11/18/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('18', '13', '3', '30', '1/31/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('19', '26', '5', '12', '5/17/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('20', '2', '10', '30', '3/30/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('21', '48', '10', '17', '12/20/2024', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('22', '21', '9', '1', '4/7/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('23', '18', '7', '15', '3/10/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('24', '6', '14', '25', '6/22/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('25', '39', '6', '30', '9/23/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('26', '16', '14', '20', '7/3/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('27', '37', '6', '22', '8/22/2025', 'excellent');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('28', '22', '2', '3', '6/17/2025', 'good');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('29', '49', '5', '30', '6/9/2025', 'poor');
-INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, condition) VALUES ('30', '18', '14', '1', '9/11/2025', 'excellent');
 
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('12', '35', '191', '1');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('22', '91', '112', '2');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('17', '73', '145', '3');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('23', '90', '62', '4');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('20', '41', '7', '5');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('18', '73', '80', '6');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('13', '49', '106', '7');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('17', '38', '141', '8');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('23', '43', '192', '9');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('16', '17', '161', '10');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('11', '23', '123', '11');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('17', '5', '194', '12');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('20', '40', '150', '13');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('16', '2', '115', '14');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('19', '72', '169', '15');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('20', '80', '130', '16');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('14', '63', '15', '17');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('14', '71', '59', '18');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('22', '82', '172', '19');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('20', '50', '16', '20');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('11', '72', '50', '21');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('19', '14', '116', '22');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('22', '37', '127', '23');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('20', '87', '112', '24');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('14', '4', '75', '25');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('8', '69', '80', '26');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('20', '87', '19', '27');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('8', '12', '91', '28');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('17', '88', '198', '29');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('22', '65', '130', '30');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('11', '12', '23', '31');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('19', '63', '135', '32');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('15', '26', '127', '33');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('15', '86', '108', '34');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('11', '33', '18', '35');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('11', '49', '169', '36');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('8', '65', '138', '37');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('13', '84', '154', '38');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('17', '74', '2', '39');
-INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES ('15', '47', '129', '40');
+INSERT INTO found_item_report (foundReportID, userID, locationID, itemID, dateFound, `condition`) VALUES
+(1, 8, 3, 29, '2025-06-18 00:00:00', 'poor'),
+(2, 6, 9, 25, '2025-01-01 00:00:00', 'good'),
+(3, 26, 12, 25, '2025-11-03 00:00:00', 'poor'),
+(4, 47, 7, 2, '2025-10-30 00:00:00', 'excellent'),
+(5, 18, 14, 22, '2025-06-18 00:00:00', 'excellent'),
+(6, 32, 1, 6, '2025-07-29 00:00:00', 'excellent'),
+(7, 37, 1, 3, '2025-09-30 00:00:00', 'excellent'),
+(8, 44, 6, 16, '2025-07-30 00:00:00', 'excellent'),
+(9, 9, 3, 29, '2025-08-05 00:00:00', 'good'),
+(10, 28, 9, 21, '2025-05-11 00:00:00', 'excellent'),
+(11, 33, 13, 12, '2025-11-12 00:00:00', 'excellent'),
+(12, 20, 9, 2, '2025-04-09 00:00:00', 'excellent'),
+(13, 8, 12, 5, '2024-12-20 00:00:00', 'poor'),
+(14, 48, 7, 14, '2025-09-21 00:00:00', 'good'),
+(15, 7, 13, 26, '2025-12-06 00:00:00', 'poor'),
+(16, 14, 2, 5, '2025-02-08 00:00:00', 'good'),
+(17, 27, 13, 29, '2025-11-18 00:00:00', 'excellent'),
+(18, 13, 3, 30, '2025-01-31 00:00:00', 'poor'),
+(19, 26, 5, 12, '2025-05-17 00:00:00', 'good'),
+(20, 2, 10, 30, '2025-03-30 00:00:00', 'good'),
+(21, 48, 10, 17, '2024-12-20 00:00:00', 'poor'),
+(22, 21, 9, 1, '2025-04-07 00:00:00', 'good'),
+(23, 18, 7, 15, '2025-03-10 00:00:00', 'poor'),
+(24, 6, 14, 25, '2025-06-22 00:00:00', 'good'),
+(25, 39, 6, 30, '2025-09-23 00:00:00', 'poor'),
+(26, 16, 14, 20, '2025-07-03 00:00:00', 'poor'),
+(27, 37, 6, 22, '2025-08-22 00:00:00', 'excellent'),
+(28, 22, 2, 3, '2025-06-17 00:00:00', 'good'),
+(29, 49, 5, 30, '2025-06-09 00:00:00', 'poor'),
+(30, 18, 14, 1, '2025-09-11 00:00:00', 'excellent');
 
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ("GPS collar that monitors your pet's location and activity level.", 'Unclaimed', '9/2/2025', '14', '8', '1');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Just add water for delicious brownies.', 'Unclaimed', '11/3/2025', '56', '9', '2');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Leak-proof bottles for travel-sized toiletries.', 'Unclaimed', '8/17/2025', '15', '11', '3');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Refreshing sorbet with a zesty lemon flavor.', 'Unclaimed', '1/10/2025', '37', '6', '4');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Make delicious ice cream at home with this user-friendly machine.', 'Unclaimed', '9/26/2025', '1', '7', '5');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Burr coffee grinder for fresh ground coffee.', 'Unclaimed', '1/14/2025', '48', '4', '6');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Boost your Wi-Fi signal for better coverage.', 'Claimed', '8/12/2025', '62', '7', '7');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Eco-friendly bamboo cutting boards in various sizes.', 'Claimed', '7/17/2025', '22', '10', '8');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Stylish smartwatch with fitness tracking and notifications.', 'Unclaimed', '12/24/2024', '8', '6', '9');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Light and fluffy popcorn coated in sweet honey butter.', 'Claimed', '2/16/2025', '59', '8', '10');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Savory popcorn flavored with maple syrup and bacon bits.', 'Unclaimed', '3/21/2025', '64', '10', '11');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Artisan bread with caraway seeds for added flavor.', 'Claimed', '11/1/2025', '7', '12', '12');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Sweetened powder for refreshing lemonade.', 'Claimed', '7/29/2025', '17', '3', '13');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('High-resolution camera for stunning photos.', 'Claimed', '2/17/2025', '68', '1', '14');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Heavy-duty rope suitable for boating, camping, and general use.', 'Unclaimed', '11/8/2025', '67', '4', '15');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Fluffy couscous seasoned with a blend of herbs, perfect as a side dish.', 'Claimed', '7/11/2025', '70', '8', '16');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Frozen chicken bites coated in a honey sriracha glaze, spicy and sweet.', 'Claimed', '1/16/2025', '76', '4', '17');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Roasted almonds dipped in rich dark chocolate.', 'Claimed', '4/15/2025', '83', '7', '18');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Beautiful wall calendar for organizing your schedule.', 'Unclaimed', '4/10/2025', '34', '1', '19');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Sweetened sticky rice served with fresh mango and coconut sauce.', 'Unclaimed', '7/14/2025', '30', '11', '20');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Marinated chicken skewers infused with traditional tandoori spices.', 'Unclaimed', '4/9/2025', '55', '4', '21');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Juicy pork tenderloin, great for roasting.', 'Claimed', '1/20/2025', '78', '2', '22');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Rechargeable electric razor for a smooth shave.', 'Unclaimed', '11/4/2025', '53', '6', '23');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Challenging puzzle game set for family entertainment.', 'Unclaimed', '10/16/2025', '61', '11', '24');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Complete fondue set for chocolate and cheese parties.', 'Claimed', '12/26/2024', '6', '7', '25');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Frozen mango chunks for smoothies or snacking.', 'Claimed', '3/27/2025', '5', '4', '26');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Crunchy granola mixed with maple syrup and cinnamon, perfect for breakfast or snacks.', 'Claimed', '11/7/2025', '39', '12', '27');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('A fresh salad made with black beans, corn, and a zesty dressing, great for summer cookouts.', 'Unclaimed', '10/16/2025', '95', '6', '28');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Track steps, heart rate, and sleep patterns.', 'Unclaimed', '8/14/2025', '31', '3', '29');
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES ('Compact knife with safety lock for everyday use.', 'Claimed', '4/1/2025', '49', '7', '30');
 
-INSERT INTO location (locationID, lastSeenAt) VALUES ('1', 'cabot');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('2', 'curry');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('3', 'snell library');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('4', 'ricahrds');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('5', 'hayden');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('6', 'lake');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('7', 'ell');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('8', 'dodge');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('9', 'hastings');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('10', 'stetson east');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('11', 'stetson west');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('12', 'behrakis');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('13', 'west village');
-INSERT INTO location (locationID, lastSeenAt) VALUES ('14', 'east village');
+INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES
+(12, 35, 191, 1),
+(22, 91, 112, 2),
+(17, 73, 145, 3),
+(23, 90, 62, 4),
+(20, 41, 7, 5),
+(18, 73, 80, 6),
+(13, 49, 106, 7),
+(17, 38, 141, 8),
+(23, 43, 192, 9),
+(16, 17, 161, 10),
+(11, 23, 123, 11),
+(17, 5, 194, 12),
+(20, 40, 150, 13),
+(16, 2, 115, 14),
+(19, 72, 169, 15),
+(20, 80, 130, 16),
+(14, 63, 15, 17),
+(14, 71, 59, 18),
+(22, 82, 172, 19),
+(20, 50, 16, 20),
+(11, 72, 50, 21),
+(19, 14, 116, 22),
+(22, 37, 127, 23),
+(20, 87, 112, 24),
+(14, 4, 75, 25),
+(8, 69, 80, 26),
+(20, 87, 19, 27),
+(8, 12, 91, 28),
+(17, 88, 198, 29),
+(22, 65, 130, 30),
+(11, 12, 23, 31),
+(19, 63, 135, 32),
+(15, 26, 127, 33),
+(15, 86, 108, 34),
+(11, 33, 18, 35),
+(11, 49, 169, 36),
+(8, 65, 138, 37),
+(13, 84, 154, 38),
+(17, 74, 2, 39),
+(15, 47, 129, 40);
 
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('1', '27', '6', '7/4/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('2', '16', '14', '8/25/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('3', '12', '7', '6/20/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('4', '16', '3', '9/3/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('5', '2', '5', '7/1/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('6', '8', '12', '1/10/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('7', '27', '1', '5/10/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('8', '38', '11', '8/30/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('9', '23', '7', '2/9/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('10', '18', '8', '4/11/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('11', '25', '10', '12/2/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('12', '40', '8', '4/10/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('13', '18', '9', '9/2/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('14', '32', '5', '12/22/2024');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('15', '50', '12', '11/12/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('16', '40', '1', '2/9/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('17', '3', '13', '6/17/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('18', '11', '14', '5/25/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('19', '46', '7', '6/19/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('20', '19', '6', '12/3/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('21', '49', '8', '1/9/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('22', '4', '4', '8/8/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('23', '25', '10', '12/21/2024');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('24', '6', '5', '6/15/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('25', '9', '3', '10/16/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('26', '30', '8', '11/27/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('27', '41', '5', '4/5/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('28', '33', '11', '4/4/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('29', '27', '1', '5/5/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('30', '26', '13', '3/21/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('31', '11', '14', '11/20/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('32', '10', '13', '11/27/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('33', '28', '11', '4/23/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('34', '40', '8', '5/3/2025');
-INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES ('35', '29', '7', '9/11/2025');
+INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES
+('GPS collar that monitors your pet''s location and activity level.', 'Unclaimed', '2025-09-02 00:00:00', 14, 1, 1),
+('Just add water for delicious brownies.', 'Unclaimed', '2025-11-03 00:00:00', 56, 2, 2),
+('Leak-proof bottles for travel-sized toiletries.', 'Unclaimed', '2025-08-17 00:00:00', 15, 3, 3),
+('Refreshing sorbet with a zesty lemon flavor.', 'Unclaimed', '2025-01-10 00:00:00', 37, 4, 4),
+('Make delicious ice cream at home with this user-friendly machine.', 'Unclaimed', '2025-09-26 00:00:00', 1, 1, 5),
+('Burr coffee grinder for fresh ground coffee.', 'Unclaimed', '2025-01-14 00:00:00', 48, 2, 6),
+('Boost your Wi-Fi signal for better coverage.', 'Claimed', '2025-08-12 00:00:00', 62, 3, 7),
+('Eco-friendly bamboo cutting boards in various sizes.', 'Claimed', '2025-07-17 00:00:00', 22, 4, 8),
+('Stylish smartwatch with fitness tracking and notifications.', 'Unclaimed', '2024-12-24 00:00:00', 8, 1, 9),
+('Light and fluffy popcorn coated in sweet honey butter.', 'Claimed', '2025-02-16 00:00:00', 59, 2, 10),
+('Savory popcorn flavored with maple syrup and bacon bits.', 'Unclaimed', '2025-03-21 00:00:00', 64, 3, 11),
+('Artisan bread with caraway seeds for added flavor.', 'Claimed', '2025-11-01 00:00:00', 7, 4, 12),
+('Sweetened powder for refreshing lemonade.', 'Claimed', '2025-07-29 00:00:00', 17, 1, 13),
+('High-resolution camera for stunning photos.', 'Claimed', '2025-02-17 00:00:00', 68, 2, 14),
+('Heavy-duty rope suitable for boating, camping, and general use.', 'Unclaimed', '2025-11-08 00:00:00', 67, 3, 15),
+('Fluffy couscous seasoned with a blend of herbs, perfect as a side dish.', 'Claimed', '2025-07-11 00:00:00', 70, 4, 16),
+('Frozen chicken bites coated in a honey sriracha glaze, spicy and sweet.', 'Claimed', '2025-01-16 00:00:00', 76, 1, 17),
+('Roasted almonds dipped in rich dark chocolate.', 'Claimed', '2025-04-15 00:00:00', 83, 2, 18),
+('Beautiful wall calendar for organizing your schedule.', 'Unclaimed', '2025-04-10 00:00:00', 34, 3, 19),
+('Sweetened sticky rice served with fresh mango and coconut sauce.', 'Unclaimed', '2025-07-14 00:00:00', 30, 4, 20),
+('Marinated chicken skewers infused with traditional tandoori spices.', 'Unclaimed', '2025-04-09 00:00:00', 55, 1, 21),
+('Juicy pork tenderloin, great for roasting.', 'Claimed', '2025-01-20 00:00:00', 78, 2, 22),
+('Rechargeable electric razor for a smooth shave.', 'Unclaimed', '2025-11-04 00:00:00', 53, 3, 23),
+('Challenging puzzle game set for family entertainment.', 'Unclaimed', '2025-10-16 00:00:00', 61, 4, 24),
+('Complete fondue set for chocolate and cheese parties.', 'Claimed', '2024-12-26 00:00:00', 6, 1, 25),
+('Frozen mango chunks for smoothies or snacking.', 'Claimed', '2025-03-27 00:00:00', 5, 2, 26),
+('Crunchy granola mixed with maple syrup and cinnamon, perfect for breakfast or snacks.', 'Claimed', '2025-11-07 00:00:00', 39, 3, 27),
+('A fresh salad made with black beans, corn, and a zesty dressing, great for summer cookouts.', 'Unclaimed', '2025-10-16 00:00:00', 95, 4, 28),
+('Track steps, heart rate, and sleep patterns.', 'Unclaimed', '2025-08-14 00:00:00', 31, 1, 29),
+('Compact knife with safety lock for everyday use.', 'Claimed', '2025-04-01 00:00:00', 49, 2, 30);
 
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('1', '6', '4/19/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('2', '1', '11/18/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('3', '6', '8/17/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('4', '9', '4/27/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('5', '10', '10/30/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('6', '2', '5/10/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('7', '9', '8/16/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('8', '2', '6/27/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('9', '6', '10/10/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('10', '8', '5/17/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('11', '9', '8/4/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('12', '7', '12/13/2024', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('13', '2', '9/7/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('14', '7', '12/10/2024', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('15', '2', '1/8/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('16', '5', '2/16/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('17', '5', '1/16/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('18', '9', '12/10/2024', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('19', '8', '1/25/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('20', '10', '7/24/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('21', '3', '5/21/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('22', '1', '3/8/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('23', '1', '10/23/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('24', '10', '2/7/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('25', '9', '9/2/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('26', '5', '8/24/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('27', '2', '1/5/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('28', '5', '1/2/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('29', '6', '9/27/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('30', '10', '10/22/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('31', '5', '7/11/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('32', '6', '11/25/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('33', '1', '4/9/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('34', '3', '5/6/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('35', '5', '11/16/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('36', '1', '11/18/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('37', '1', '6/12/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('38', '3', '5/12/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('39', '2', '10/13/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('40', '1', '10/10/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('41', '3', '9/25/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('42', '6', '9/13/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('43', '4', '11/22/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('44', '9', '11/3/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('45', '8', '2/11/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('46', '2', '8/19/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('47', '9', '6/22/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('48', '8', '6/15/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('49', '9', '5/23/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('50', '4', '12/30/2024', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('51', '8', '7/20/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('52', '9', '11/28/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('53', '1', '7/4/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('54', '6', '1/5/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('55', '9', '11/14/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('56', '4', '2/13/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('57', '2', '1/24/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('58', '8', '8/3/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('59', '10', '9/23/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('60', '5', '7/9/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('61', '6', '2/3/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('62', '4', '3/14/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('63', '10', '6/7/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('64', '1', '5/26/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('65', '3', '12/18/2024', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('66', '8', '1/28/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('67', '10', '3/30/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('68', '9', '3/12/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('69', '9', '7/16/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('70', '2', '3/5/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('71', '10', '9/1/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('72', '7', '3/9/2025', 'no action');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('73', '5', '7/18/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('74', '4', '8/9/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('75', '7', '5/25/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('76', '2', '7/25/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('77', '4', '8/20/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('78', '6', '1/16/2025', 'ban');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('79', '3', '3/31/2025', 'mute');
-INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES ('80', '5', '4/2/2025', 'ban');
+INSERT INTO location (locationID, lastSeenAt) VALUES
+(1, 'cabot'),
+(2, 'curry'),
+(3, 'snell library'),
+(4, 'richards'),
+(5, 'hayden'),
+(6, 'lake'),
+(7, 'ell'),
+(8, 'dodge'),
+(9, 'hastings'),
+(10, 'stetson east'),
+(11, 'stetson west'),
+(12, 'behrakis'),
+(13, 'west village'),
+(14, 'east village');
 
-INSERT INTO notification (notificationID, userID, message) VALUES ('1', '21', 'gloves');
-INSERT INTO notification (notificationID, userID, message) VALUES ('2', '30', 'gloves');
-INSERT INTO notification (notificationID, userID, message) VALUES ('3', '17', 'umbrella');
-INSERT INTO notification (notificationID, userID, message) VALUES ('4', '38', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('5', '17', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('6', '27', 'water bottle');
-INSERT INTO notification (notificationID, userID, message) VALUES ('7', '23', 'laptop');
-INSERT INTO notification (notificationID, userID, message) VALUES ('8', '37', 'umbrella');
-INSERT INTO notification (notificationID, userID, message) VALUES ('9', '24', 'phone');
-INSERT INTO notification (notificationID, userID, message) VALUES ('10', '26', 'textbook');
-INSERT INTO notification (notificationID, userID, message) VALUES ('11', '24', 'headphones');
-INSERT INTO notification (notificationID, userID, message) VALUES ('12', '50', 'laptop');
-INSERT INTO notification (notificationID, userID, message) VALUES ('13', '28', 'phone');
-INSERT INTO notification (notificationID, userID, message) VALUES ('14', '47', 'gloves');
-INSERT INTO notification (notificationID, userID, message) VALUES ('15', '49', 'sunglasses');
-INSERT INTO notification (notificationID, userID, message) VALUES ('16', '30', 'umbrella');
-INSERT INTO notification (notificationID, userID, message) VALUES ('17', '46', 'wallet');
-INSERT INTO notification (notificationID, userID, message) VALUES ('18', '25', 'hat');
-INSERT INTO notification (notificationID, userID, message) VALUES ('19', '5', 'gloves');
-INSERT INTO notification (notificationID, userID, message) VALUES ('20', '34', 'sunglasses');
-INSERT INTO notification (notificationID, userID, message) VALUES ('21', '2', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('22', '46', 'gloves');
-INSERT INTO notification (notificationID, userID, message) VALUES ('23', '1', 'headphones');
-INSERT INTO notification (notificationID, userID, message) VALUES ('24', '22', 'phone');
-INSERT INTO notification (notificationID, userID, message) VALUES ('25', '26', 'hat');
-INSERT INTO notification (notificationID, userID, message) VALUES ('26', '30', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('27', '28', 'hat');
-INSERT INTO notification (notificationID, userID, message) VALUES ('28', '43', 'headphones');
-INSERT INTO notification (notificationID, userID, message) VALUES ('29', '46', 'wallet');
-INSERT INTO notification (notificationID, userID, message) VALUES ('30', '3', 'sunglasses');
-INSERT INTO notification (notificationID, userID, message) VALUES ('31', '7', 'headphones');
-INSERT INTO notification (notificationID, userID, message) VALUES ('32', '47', 'wallet');
-INSERT INTO notification (notificationID, userID, message) VALUES ('33', '30', 'wallet');
-INSERT INTO notification (notificationID, userID, message) VALUES ('34', '13', 'textbook');
-INSERT INTO notification (notificationID, userID, message) VALUES ('35', '13', 'textbook');
-INSERT INTO notification (notificationID, userID, message) VALUES ('36', '31', 'gloves');
-INSERT INTO notification (notificationID, userID, message) VALUES ('37', '50', 'laptop');
-INSERT INTO notification (notificationID, userID, message) VALUES ('38', '22', 'textbook');
-INSERT INTO notification (notificationID, userID, message) VALUES ('39', '46', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('40', '19', 'hat');
-INSERT INTO notification (notificationID, userID, message) VALUES ('41', '26', 'wallet');
-INSERT INTO notification (notificationID, userID, message) VALUES ('42', '18', 'umbrella');
-INSERT INTO notification (notificationID, userID, message) VALUES ('43', '8', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('44', '43', 'phone');
-INSERT INTO notification (notificationID, userID, message) VALUES ('45', '47', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('46', '18', 'textbook');
-INSERT INTO notification (notificationID, userID, message) VALUES ('47', '39', 'gloves');
-INSERT INTO notification (notificationID, userID, message) VALUES ('48', '20', 'water bottle');
-INSERT INTO notification (notificationID, userID, message) VALUES ('49', '49', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('50', '15', 'water bottle');
-INSERT INTO notification (notificationID, userID, message) VALUES ('51', '39', 'headphones');
-INSERT INTO notification (notificationID, userID, message) VALUES ('52', '29', 'headphones');
-INSERT INTO notification (notificationID, userID, message) VALUES ('53', '31', 'sunglasses');
-INSERT INTO notification (notificationID, userID, message) VALUES ('54', '33', 'headphones');
-INSERT INTO notification (notificationID, userID, message) VALUES ('55', '3', 'hat');
-INSERT INTO notification (notificationID, userID, message) VALUES ('56', '48', 'wallet');
-INSERT INTO notification (notificationID, userID, message) VALUES ('57', '33', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('58', '37', 'keys');
-INSERT INTO notification (notificationID, userID, message) VALUES ('59', '2', 'wallet');
-INSERT INTO notification (notificationID, userID, message) VALUES ('60', '16', 'headphones');
+INSERT INTO lost_item_report (lostReportID, userID, locationID, datelost) VALUES
+(1, 27, 6,  '2025-07-04 00:00:00'),
+(2, 16, 14, '2025-08-25 00:00:00'),
+(3, 12, 7,  '2025-06-20 00:00:00'),
+(4, 16, 3,  '2025-09-03 00:00:00'),
+(5, 2,  5,  '2025-07-01 00:00:00'),
+(6, 8,  12, '2025-01-10 00:00:00'),
+(7, 27, 1,  '2025-05-10 00:00:00'),
+(8, 38, 11, '2025-08-30 00:00:00'),
+(9, 23, 7,  '2025-02-09 00:00:00'),
+(10, 18, 8, '2025-04-11 00:00:00'),
+(11, 25, 10, '2025-12-02 00:00:00'),
+(12, 40, 8,  '2025-04-10 00:00:00'),
+(13, 18, 9,  '2025-09-02 00:00:00'),
+(14, 32, 5,  '2024-12-22 00:00:00'),
+(15, 50, 12, '2025-11-12 00:00:00'),
+(16, 40, 1,  '2025-02-09 00:00:00'),
+(17, 3,  13, '2025-06-17 00:00:00'),
+(18, 11, 14, '2025-05-25 00:00:00'),
+(19, 46, 7,  '2025-06-19 00:00:00'),
+(20, 19, 6,  '2025-12-03 00:00:00'),
+(21, 49, 8,  '2025-01-09 00:00:00'),
+(22, 4,  4,  '2025-08-08 00:00:00'),
+(23, 25, 10, '2024-12-21 00:00:00'),
+(24, 6,  5,  '2025-06-15 00:00:00'),
+(25, 9,  3,  '2025-10-16 00:00:00'),
+(26, 30, 8,  '2025-11-27 00:00:00'),
+(27, 41, 5,  '2025-04-05 00:00:00'),
+(28, 33, 11, '2025-04-04 00:00:00'),
+(29, 27, 1,  '2025-05-05 00:00:00'),
+(30, 26, 13, '2025-03-21 00:00:00'),
+(31, 11, 14, '2025-11-20 00:00:00'),
+(32, 10, 13, '2025-11-27 00:00:00'),
+(33, 28, 11, '2025-04-23 00:00:00'),
+(34, 40, 8,  '2025-05-03 00:00:00'),
+(35, 29, 7,  '2025-09-11 00:00:00');
 
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('1', '36', '96', '68', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('2', '26', '82', '75', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('3', '40', '28', '69', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('4', '28', '70', '67', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('5', '27', '36', '6', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('6', '35', '78', '37', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('7', '37', '61', '38', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('8', '1', '6', '31', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('9', '28', '85', '66', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('10', '47', '68', '55', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('11', '19', '39', '58', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('12', '46', '44', '29', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('13', '40', '100', '27', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('14', '36', '84', '45', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('15', '18', '98', '31', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('16', '38', '90', '6', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('17', '32', '12', '11', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('18', '24', '100', '55', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('19', '22', '69', '67', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('20', '26', '24', '70', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('21', '31', '68', '23', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('22', '12', '100', '30', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('23', '13', '31', '9', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('24', '47', '99', '69', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('25', '35', '42', '23', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('26', '46', '59', '56', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('27', '9', '68', '22', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('28', '9', '85', '26', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('29', '23', '61', '65', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('30', '38', '17', '50', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('31', '25', '66', '10', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('32', '15', '59', '5', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('33', '13', '75', '44', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('34', '10', '51', '35', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('35', '26', '82', '2', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('36', '37', '46', '11', 'malicious');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('37', '50', '40', '15', 'harassment');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('38', '3', '75', '54', 'spam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('39', '47', '7', '40', 'scam');
-INSERT INTO report (reportID, userID, logID, modID, content) VALUES ('40', '31', '45', '27', 'malicious');
+INSERT INTO moderation (modID, adminID, timestamp, modType) VALUES
+(1, 6,  '2025-04-19 00:00:00', 'ban'),
+(2, 1,  '2025-11-18 00:00:00', 'mute'),
+(3, 6,  '2025-08-17 00:00:00', 'mute'),
+(4, 9,  '2025-04-27 00:00:00', 'no action'),
+(5, 10, '2025-10-30 00:00:00', 'no action'),
+(6, 2,  '2025-05-10 00:00:00', 'mute'),
+(7, 9,  '2025-08-16 00:00:00', 'mute'),
+(8, 2,  '2025-06-27 00:00:00', 'ban'),
+(9, 6,  '2025-10-10 00:00:00', 'ban'),
+(10, 8, '2025-05-17 00:00:00', 'mute'),
+(11, 9, '2025-08-04 00:00:00', 'ban'),
+(12, 7, '2024-12-13 00:00:00', 'ban'),
+(13, 2, '2025-09-07 00:00:00', 'mute'),
+(14, 7, '2024-12-10 00:00:00', 'ban'),
+(15, 2, '2025-01-08 00:00:00', 'no action'),
+(16, 5, '2025-02-16 00:00:00', 'ban'),
+(17, 5, '2025-01-16 00:00:00', 'no action'),
+(18, 9, '2024-12-10 00:00:00', 'no action'),
+(19, 8, '2025-01-25 00:00:00', 'no action'),
+(20, 10,'2025-07-24 00:00:00', 'no action'),
+(21, 3, '2025-05-21 00:00:00', 'no action'),
+(22, 1, '2025-03-08 00:00:00', 'mute'),
+(23, 1, '2025-10-23 00:00:00', 'no action'),
+(24, 10,'2025-02-07 00:00:00', 'mute'),
+(25, 9, '2025-09-02 00:00:00', 'ban'),
+(26, 5, '2025-08-24 00:00:00', 'no action'),
+(27, 2, '2025-01-05 00:00:00', 'no action'),
+(28, 5, '2025-01-02 00:00:00', 'no action'),
+(29, 6, '2025-09-27 00:00:00', 'no action'),
+(30, 10,'2025-10-22 00:00:00', 'mute'),
+(31, 5, '2025-07-11 00:00:00', 'mute'),
+(32, 6, '2025-11-25 00:00:00', 'mute'),
+(33, 1, '2025-04-09 00:00:00', 'mute'),
+(34, 3, '2025-05-06 00:00:00', 'mute'),
+(35, 5, '2025-11-16 00:00:00', 'ban'),
+(36, 1, '2025-11-18 00:00:00', 'no action'),
+(37, 1, '2025-06-12 00:00:00', 'mute'),
+(38, 3, '2025-05-12 00:00:00', 'ban'),
+(39, 2, '2025-10-13 00:00:00', 'ban'),
+(40, 1, '2025-10-10 00:00:00', 'ban'),
+(41, 3, '2025-09-25 00:00:00', 'mute'),
+(42, 6, '2025-09-13 00:00:00', 'ban'),
+(43, 4, '2025-11-22 00:00:00', 'ban'),
+(44, 9, '2025-11-03 00:00:00', 'ban'),
+(45, 8, '2025-02-11 00:00:00', 'no action'),
+(46, 2, '2025-08-19 00:00:00', 'ban'),
+(47, 9, '2025-06-22 00:00:00', 'no action'),
+(48, 8, '2025-06-15 00:00:00', 'mute'),
+(49, 9, '2025-05-23 00:00:00', 'mute'),
+(50, 4, '2024-12-30 00:00:00', 'no action'),
+(51, 8, '2025-07-20 00:00:00', 'ban'),
+(52, 9, '2025-11-28 00:00:00', 'ban'),
+(53, 1, '2025-07-04 00:00:00', 'mute'),
+(54, 6, '2025-01-05 00:00:00', 'no action'),
+(55, 9, '2025-11-14 00:00:00', 'mute'),
+(56, 4, '2025-02-13 00:00:00', 'ban'),
+(57, 2, '2025-01-24 00:00:00', 'ban'),
+(58, 8, '2025-08-03 00:00:00', 'no action'),
+(59, 10,'2025-09-23 00:00:00', 'ban'),
+(60, 5, '2025-07-09 00:00:00', 'ban'),
+(61, 6, '2025-02-03 00:00:00', 'no action'),
+(62, 4, '2025-03-14 00:00:00', 'no action'),
+(63, 10,'2025-06-07 00:00:00', 'mute'),
+(64, 1, '2025-05-26 00:00:00', 'ban'),
+(65, 3, '2024-12-18 00:00:00', 'mute'),
+(66, 8, '2025-01-28 00:00:00', 'mute'),
+(67, 10,'2025-03-30 00:00:00', 'no action'),
+(68, 9, '2025-03-12 00:00:00', 'mute'),
+(69, 9, '2025-07-16 00:00:00', 'mute'),
+(70, 2, '2025-03-05 00:00:00', 'ban'),
+(71, 10,'2025-09-01 00:00:00', 'mute'),
+(72, 7, '2025-03-09 00:00:00', 'no action'),
+(73, 5, '2025-07-18 00:00:00', 'mute'),
+(74, 4, '2025-08-09 00:00:00', 'mute'),
+(75, 7, '2025-05-25 00:00:00', 'ban'),
+(76, 2, '2025-07-25 00:00:00', 'mute'),
+(77, 4, '2025-08-20 00:00:00', 'mute'),
+(78, 6, '2025-01-16 00:00:00', 'ban'),
+(79, 3, '2025-03-31 00:00:00', 'mute'),
+(80, 5, '2025-04-02 00:00:00', 'ban');
 
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('1', '1', '8');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('2', '2', '30');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('3', '3', '21');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('4', '4', '25');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('5', '5', '30');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('6', '6', '8');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('7', '7', '37');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('8', '8', '49');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('9', '9', '22');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('10', '10', '38');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('11', '11', '43');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('12', '12', '33');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('13', '13', '25');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('14', '14', '33');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('15', '15', '5');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('16', '16', '29');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('17', '17', '50');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('18', '18', '14');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('19', '19', '37');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('20', '20', '40');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('21', '21', '46');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('22', '22', '49');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('23', '23', '14');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('24', '24', '18');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('25', '25', '47');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('26', '26', '49');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('27', '27', '16');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('28', '28', '47');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('29', '29', '6');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('30', '30', '28');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('31', '31', '34');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('32', '32', '47');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('33', '33', '13');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('34', '34', '21');
-INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES ('35', '35', '45');
+INSERT INTO notification (notificationID, userID, message) VALUES
+(1, 21, 'gloves'),
+(2, 30, 'gloves'),
+(3, 17, 'umbrella'),
+(4, 38, 'keys'),
+(5, 17, 'keys'),
+(6, 27, 'water bottle'),
+(7, 23, 'laptop'),
+(8, 37, 'umbrella'),
+(9, 24, 'phone'),
+(10, 26, 'textbook'),
+(11, 24, 'headphones'),
+(12, 50, 'laptop'),
+(13, 28, 'phone'),
+(14, 47, 'gloves'),
+(15, 49, 'sunglasses'),
+(16, 30, 'umbrella'),
+(17, 46, 'wallet'),
+(18, 25, 'hat'),
+(19, 5, 'gloves'),
+(20, 34, 'sunglasses'),
+(21, 2, 'keys'),
+(22, 46, 'gloves'),
+(23, 1, 'headphones'),
+(24, 22, 'phone'),
+(25, 26, 'hat'),
+(26, 30, 'keys'),
+(27, 28, 'hat'),
+(28, 43, 'headphones'),
+(29, 46, 'wallet'),
+(30, 3, 'sunglasses'),
+(31, 7, 'headphones'),
+(32, 47, 'wallet'),
+(33, 30, 'wallet'),
+(34, 13, 'textbook'),
+(35, 13, 'textbook'),
+(36, 31, 'gloves'),
+(37, 50, 'laptop'),
+(38, 22, 'textbook'),
+(39, 46, 'keys'),
+(40, 19, 'hat'),
+(41, 26, 'wallet'),
+(42, 18, 'umbrella'),
+(43, 8, 'keys'),
+(44, 43, 'phone'),
+(45, 47, 'keys'),
+(46, 18, 'textbook'),
+(47, 39, 'gloves'),
+(48, 20, 'water bottle'),
+(49, 49, 'keys'),
+(50, 15, 'water bottle'),
+(51, 39, 'headphones'),
+(52, 29, 'headphones'),
+(53, 31, 'sunglasses'),
+(54, 33, 'headphones'),
+(55, 3, 'hat'),
+(56, 48, 'wallet'),
+(57, 33, 'keys'),
+(58, 37, 'keys'),
+(59, 2, 'wallet'),
+(60, 16, 'headphones');
 
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '4', '1');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '9', '2');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '3', '3');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '1', '4');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '0', '5');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '5', '6');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '9', '7');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '5', '8');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '9', '9');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '7', '10');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '1', '11');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '2', '12');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '0', '13');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '8', '14');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '2', '15');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '10', '16');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '0', '17');
-INSERT INTO settings (value, adminID, settingID) VALUES ('Off', '6', '18');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '5', '19');
-INSERT INTO settings (value, adminID, settingID) VALUES ('On', '10', '20');
+INSERT INTO report (reportID, userID, logID, modID, content) VALUES
+(1, 36, 96, 68, 'harassment'),
+(2, 26, 82, 75, 'spam'),
+(3, 40, 28, 69, 'scam'),
+(4, 28, 70, 67, 'malicious'),
+(5, 27, 36, 6, 'harassment'),
+(6, 35, 78, 37, 'spam'),
+(7, 37, 61, 38, 'scam'),
+(8, 1, 6, 31, 'malicious'),
+(9, 28, 85, 66, 'harassment'),
+(10, 47, 68, 55, 'spam'),
+(11, 19, 39, 58, 'scam'),
+(12, 46, 44, 29, 'malicious'),
+(13, 40, 100, 27, 'harassment'),
+(14, 36, 84, 45, 'spam'),
+(15, 18, 98, 31, 'scam'),
+(16, 38, 90, 6, 'malicious'),
+(17, 32, 12, 11, 'harassment'),
+(18, 24, 100, 55, 'spam'),
+(19, 22, 69, 67, 'scam'),
+(20, 26, 24, 70, 'malicious'),
+(21, 31, 68, 23, 'harassment'),
+(22, 12, 100, 30, 'spam'),
+(23, 13, 31, 9, 'scam'),
+(24, 47, 99, 69, 'malicious'),
+(25, 35, 42, 23, 'harassment'),
+(26, 46, 59, 56, 'spam'),
+(27, 9, 68, 22, 'scam'),
+(28, 9, 85, 26, 'malicious'),
+(29, 23, 61, 65, 'harassment'),
+(30, 38, 17, 50, 'spam'),
+(31, 25, 66, 10, 'scam'),
+(32, 15, 59, 5, 'malicious'),
+(33, 13, 75, 44, 'harassment'),
+(34, 10, 51, 35, 'spam'),
+(35, 26, 82, 2, 'scam'),
+(36, 37, 46, 11, 'malicious'),
+(37, 50, 40, 15, 'harassment'),
+(38, 3, 75, 54, 'spam'),
+(39, 47, 7, 40, 'scam'),
+(40, 31, 45, 27, 'malicious');
+INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES
+(1, 1, 8),
+(2, 2, 30),
+(3, 3, 21),
+(4, 4, 25),
+(5, 5, 30),
+(6, 6, 8),
+(7, 7, 37),
+(8, 8, 49),
+(9, 9, 22),
+(10, 10, 38),
+(11, 11, 43),
+(12, 12, 33),
+(13, 13, 25),
+(14, 14, 33),
+(15, 15, 5),
+(16, 16, 29),
+(17, 17, 50),
+(18, 18, 14),
+(19, 19, 37),
+(20, 20, 40),
+(21, 21, 46),
+(22, 22, 49),
+(23, 23, 14),
+(24, 24, 18),
+(25, 25, 47),
+(26, 26, 49),
+(27, 27, 16),
+(28, 28, 47),
+(29, 29, 6),
+(30, 30, 28),
+(31, 31, 34),
+(32, 32, 47),
+(33, 33, 13),
+(34, 34, 21),
+(35, 35, 45);
 
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf B', '1');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf A', '2');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Cabinet A', '3');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Drawer C', '4');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf C', '5');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf B', '6');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf A', '7');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Cabinet A', '8');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Drawer C', '9');
-INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf C', '10');
+INSERT INTO settings (value, adminID, settingID) VALUES
+('Off', 4, 1),
+('Off', 9, 2),
+('On', 3, 3),
+('On', 1, 4),
+('On', 2, 5),     -- fixed (was adminID = 0)
+('Off', 5, 6),
+('On', 9, 7),
+('Off', 5, 8),
+('On', 9, 9),
+('Off', 7, 10),
+('On', 1, 11),
+('Off', 2, 12),
+('Off', 3, 13),   -- fixed (was adminID = 0)
+('On', 8, 14),
+('On', 2, 15),
+('On', 10, 16),
+('Off', 6, 17),   -- fixed (was adminID = 0)
+('Off', 6, 18),
+('On', 5, 19),
+('On', 10, 20);
 
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('37', '25', '50', '1');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('17', '12', '1', '2');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('34', '24', '97', '3');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('20', '13', '153', '4');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('42', '25', '39', '5');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('39', '20', '5', '6');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('23', '16', '168', '7');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('40', '18', '131', '8');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('29', '13', '121', '9');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('22', '14', '134', '10');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('38', '24', '199', '11');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('44', '14', '84', '12');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('22', '17', '73', '13');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('44', '24', '26', '14');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('33', '13', '158', '15');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('42', '22', '47', '16');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('41', '17', '88', '17');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('34', '13', '56', '18');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('32', '20', '190', '19');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('20', '14', '141', '20');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('28', '24', '27', '21');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('44', '12', '20', '22');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('20', '17', '173', '23');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('38', '18', '192', '24');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('15', '10', '110', '25');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('15', '12', '9', '26');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('23', '16', '195', '27');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('30', '17', '100', '28');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('44', '15', '39', '29');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('18', '11', '158', '30');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('28', '14', '96', '31');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('15', '22', '141', '32');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('42', '19', '185', '33');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('30', '24', '44', '34');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('23', '22', '107', '35');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('15', '19', '122', '36');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('24', '16', '11', '37');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('45', '24', '84', '38');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('31', '18', '140', '39');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('28', '15', '187', '40');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('18', '18', '80', '41');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('29', '10', '49', '42');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('26', '12', '197', '43');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('45', '10', '23', '44');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('45', '21', '57', '45');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('24', '10', '60', '46');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('28', '18', '185', '47');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('33', '25', '39', '48');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('32', '22', '113', '49');
-INSERT INTO usage_stats (activeUsers, sumbissions, analyticsID, usageID) VALUES ('39', '11', '153', '50');
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf B', 1);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf A', 2);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Cabinet A', 3);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Drawer C', 4);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf C', 5);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf B', 6);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf A', 7);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Cabinet A', 8);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Drawer C', 9);
+INSERT INTO storage_location (shelfNumber, storageLocationID) VALUES ('Shelf C', 10);
 
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('1', '7', '3/2/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('2', '4', '9/8/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('3', '8', '9/22/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('4', '5', '3/16/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('5', '7', '9/5/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('6', '8', '4/16/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('7', '6', '7/19/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('8', '8', '11/7/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('9', '2', '9/13/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('10', '2', '4/27/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('11', '9', '7/5/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('12', '3', '9/7/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('13', '5', '10/24/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('14', '7', '3/18/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('15', '5', '10/31/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('16', '1', '12/2/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('17', '8', '11/1/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('18', '8', '2/23/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('19', '10', '6/4/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('20', '4', '10/31/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('21', '8', '6/24/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('22', '6', '1/28/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('23', '3', '3/23/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('24', '4', '5/5/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('25', '2', '4/22/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('26', '3', '7/6/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('27', '3', '2/20/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('28', '3', '6/29/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('29', '3', '3/7/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('30', '3', '12/8/2024', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('31', '3', '1/24/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('32', '1', '4/20/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('33', '7', '7/19/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('34', '10', '3/10/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('35', '3', '6/17/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('36', '10', '4/29/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('37', '6', '9/11/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('38', '9', '11/27/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('39', '6', '9/23/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('40', '10', '7/8/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('41', '9', '3/22/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('42', '5', '5/3/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('43', '2', '10/31/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('44', '4', '4/7/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('45', '1', '7/1/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('46', '10', '2/25/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('47', '5', '1/30/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('48', '9', '9/21/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('49', '9', '1/30/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('50', '4', '3/29/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('51', '4', '2/23/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('52', '4', '4/25/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('53', '2', '6/7/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('54', '10', '7/5/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('55', '5', '3/10/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('56', '9', '5/12/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('57', '1', '5/16/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('58', '5', '7/19/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('59', '1', '5/18/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('60', '3', '11/6/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('61', '8', '5/14/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('62', '4', '12/30/2024', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('63', '2', '9/4/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('64', '4', '12/12/2024', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('65', '5', '4/14/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('66', '3', '4/17/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('67', '10', '7/10/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('68', '4', '12/31/2024', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('69', '6', '8/2/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('70', '9', '1/19/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('71', '9', '11/24/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('72', '5', '10/13/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('73', '2', '2/18/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('74', '6', '7/11/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('75', '3', '3/16/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('76', '3', '8/8/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('77', '1', '9/14/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('78', '6', '3/15/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('79', '6', '5/2/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('80', '6', '8/27/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('81', '6', '11/24/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('82', '4', '10/15/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('83', '3', '9/17/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('84', '2', '10/21/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('85', '4', '3/17/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('86', '6', '7/26/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('87', '3', '5/3/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('88', '9', '10/19/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('89', '7', '10/25/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('90', '9', '6/3/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('91', '5', '2/5/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('92', '9', '12/16/2024', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('93', '10', '2/22/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('94', '8', '3/14/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('95', '3', '8/28/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('96', '2', '7/29/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('97', '9', '8/23/2025', 'lost item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('98', '4', '11/18/2025', 'submit report');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('99', '1', '4/11/2025', 'found item');
-INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES ('100', '3', '9/10/2025', 'submit report');
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (37, 25, 1, 1);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (17, 12, 2, 2);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (34, 24, 3, 3);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (20, 13, 4, 4);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (42, 25, 5, 5);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (39, 20, 6, 6);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (23, 16, 7, 7);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (40, 18, 8, 8);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (29, 13, 9, 9);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (22, 14, 10, 10);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (38, 24, 11, 11);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (44, 14, 12, 12);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (22, 17, 13, 13);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (44, 24, 14, 14);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (33, 13, 15, 15);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (42, 22, 16, 16);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (41, 17, 17, 17);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (34, 13, 18, 18);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (32, 20, 19, 19);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (20, 14, 20, 20);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (28, 24, 21, 21);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (44, 12, 22, 22);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (20, 17, 23, 23);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (38, 18, 24, 24);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (15, 10, 25, 25);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (15, 12, 26, 26);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (23, 16, 27, 27);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (30, 17, 28, 28);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (44, 15, 29, 29);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (18, 11, 30, 30);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (28, 14, 31, 31);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (15, 22, 32, 32);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (42, 19, 33, 33);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (30, 24, 34, 34);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (23, 22, 35, 35);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (15, 19, 36, 36);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (24, 16, 37, 37);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (45, 24, 38, 38);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (31, 18, 39, 39);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (28, 15, 40, 40);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (18, 18, 41, 41);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (29, 10, 42, 42);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (26, 12, 43, 43);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (45, 10, 44, 44);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (45, 21, 45, 45);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (24, 10, 46, 46);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (28, 18, 47, 47);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (33, 25, 48, 48);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (32, 22, 49, 49);
+INSERT INTO usage_stats (activeUsers, submissions, analyticsID, usageID) VALUES (39, 11, 50, 50);
 
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('1', 'Ham Prestie', 'hprestie0@youtube.com', '503-668-7625', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('2', 'Gussie Crissil', 'gcrissil1@bizjournals.com', '887-459-9359', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('3', 'Slade Randal', 'srandal2@webeden.co.uk', '838-332-3312', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('4', 'Teddi Gaiter', 'tgaiter3@ucoz.ru', '824-298-6488', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('5', 'Maegan Dibble', 'mdibble4@washingtonpost.com', '910-739-5868', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('6', 'Gardner Comfort', 'gcomfort5@domainmarket.com', '921-717-6256', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('7', 'Arne Cicero', 'acicero6@businessinsider.com', '693-331-8441', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('8', 'Sidney Delahunt', 'sdelahunt7@pinterest.com', '158-279-3459', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('9', 'Bern Whittier', 'bwhittier8@sakura.ne.jp', '936-935-4236', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('10', 'Levin Callaway', 'lcallaway9@ted.com', '647-956-5986', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('11', 'Wilmer Cannavan', 'wcannavana@acquirethisname.com', '269-153-5440', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('12', 'Drusilla Heber', 'dheberb@bbb.org', '666-946-4862', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('13', 'Carmina Drage', 'cdragec@devhub.com', '941-625-9479', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('14', 'Archaimbaud Gameson', 'agamesond@discovery.com', '316-464-9008', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('15', 'Rick Shilton', 'rshiltone@linkedin.com', '295-747-2189', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('16', 'Christen Lade', 'cladef@digg.com', '946-902-4792', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('17', 'Pavel Butson', 'pbutsong@lulu.com', '164-271-1488', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('18', 'Lebbie Fursse', 'lfursseh@clickbank.net', '789-397-1326', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('19', 'Berti McGorman', 'bmcgormani@japanpost.jp', '736-396-0093', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('20', 'Karl Hammon', 'khammonj@home.pl', '765-200-4317', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('21', 'Katuscha Bohin', 'kbohink@msu.edu', '112-797-2997', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('22', 'Raynor Pechan', 'rpechanl@nba.com', '506-177-8323', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('23', 'Moises Braunlein', 'mbraunleinm@aboutads.info', '223-753-6669', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('24', 'Wes Gabits', 'wgabitsn@china.com.cn', '708-824-7106', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('25', 'Artair Robson', 'arobsono@bandcamp.com', '613-986-2912', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('26', 'Ernie Gibbs', 'egibbsp@ocn.ne.jp', '513-458-3554', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('27', 'Myrah Tiuit', 'mtiuitq@fda.gov', '414-638-8057', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('28', 'Antonetta Jarmyn', 'ajarmynr@github.io', '216-296-0444', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('29', 'Jolynn Organer', 'jorganers@un.org', '216-556-6529', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('30', 'Barb Lenthall', 'blenthallt@tripadvisor.com', '915-552-2203', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('31', 'Gloria Dalston', 'gdalstonu@wikia.com', '674-353-1817', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('32', 'Linn Espinel', 'lespinelv@kickstarter.com', '919-887-2066', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('33', 'Bernete Tamburi', 'btamburiw@bluehost.com', '336-673-8385', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('34', 'Lizabeth Bever', 'lbeverx@fda.gov', '352-632-4019', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('35', 'Myron Marde', 'mmardey@bbb.org', '954-298-7314', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('36', 'Sarette Parbrook', 'sparbrookz@youtu.be', '477-231-9881', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('37', 'Gleda Anniwell', 'ganniwell10@bbb.org', '187-568-9512', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('38', 'Vivianna Mathet', 'vmathet11@icio.us', '573-857-9807', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('39', 'Humfried Claydon', 'hclaydon12@tiny.cc', '813-939-8297', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('40', 'Birgitta Westcot', 'bwestcot13@oakley.com', '900-648-5816', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('41', 'Olga Truin', 'otruin14@cyberchimps.com', '577-328-0389', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('42', 'Flynn Pimlett', 'fpimlett15@psu.edu', '781-631-8812', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('43', 'Gabbie Savatier', 'gsavatier16@nature.com', '659-168-5534', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('44', 'Theodor Whitehead', 'twhitehead17@ftc.gov', '414-927-0970', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('45', 'Vivia Bristow', 'vbristow18@rakuten.co.jp', '693-676-2082', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('46', 'Elmira Perone', 'eperone19@squarespace.com', '544-908-7151', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('47', 'Elsie Jakaway', 'ejakaway1a@chicagotribune.com', '804-181-0726', 'true');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('48', 'Valerye Youd', 'vyoud1b@ftc.gov', '258-691-2356', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('49', 'Myrta Gosse', 'mgosse1c@w3.org', '117-697-2125', 'false');
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES ('50', 'Karlee Lethbridge', 'klethbridge1d@army.mil', '321-910-8381', 'true');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (1, 7, '2025-03-02 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (2, 4, '2025-09-08 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (3, 8, '2025-09-22 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (4, 5, '2025-03-16 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (5, 7, '2025-09-05 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (6, 8, '2025-04-16 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (7, 6, '2025-07-19 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (8, 8, '2025-11-07 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (9, 2, '2025-09-13 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (10, 2, '2025-04-27 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (11, 9, '2025-07-05 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (12, 3, '2025-09-07 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (13, 5, '2025-10-24 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (14, 7, '2025-03-18 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (15, 5, '2025-10-31 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (16, 1, '2025-12-02 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (17, 8, '2025-11-01 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (18, 8, '2025-02-23 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (19, 10, '2025-06-04 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (20, 4, '2025-10-31 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (21, 8, '2025-06-24 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (22, 6, '2025-01-28 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (23, 3, '2025-03-23 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (24, 4, '2025-05-05 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (25, 2, '2025-04-22 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (26, 3, '2025-07-06 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (27, 3, '2025-02-20 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (28, 3, '2025-06-29 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (29, 3, '2025-03-07 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (30, 3, '2024-12-08 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (31, 3, '2025-01-24 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (32, 1, '2025-04-20 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (33, 7, '2025-07-19 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (34, 10, '2025-03-10 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (35, 3, '2025-06-17 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (36, 10, '2025-04-29 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (37, 6, '2025-09-11 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (38, 9, '2025-11-27 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (39, 6, '2025-09-23 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (40, 10, '2025-07-08 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (41, 9, '2025-03-22 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (42, 5, '2025-05-03 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (43, 2, '2025-10-31 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (44, 4, '2025-04-07 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (45, 1, '2025-07-01 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (46, 10, '2025-02-25 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (47, 5, '2025-01-30 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (48, 9, '2025-09-21 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (49, 9, '2025-01-30 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (50, 4, '2025-03-29 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (51, 4, '2025-02-23 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (52, 4, '2025-04-25 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (53, 2, '2025-06-07 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (54, 10, '2025-07-05 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (55, 5, '2025-03-10 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (56, 9, '2025-05-12 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (57, 1, '2025-05-16 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (58, 5, '2025-07-19 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (59, 1, '2025-05-18 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (60, 3, '2025-11-06 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (61, 8, '2025-05-14 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (62, 4, '2024-12-30 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (63, 2, '2025-09-04 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (64, 4, '2024-12-12 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (65, 5, '2025-04-14 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (66, 3, '2025-04-17 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (67, 10, '2025-07-10 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (68, 4, '2024-12-31 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (69, 6, '2025-08-02 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (70, 9, '2025-01-19 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (71, 9, '2025-11-24 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (72, 5, '2025-10-13 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (73, 2, '2025-02-18 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (74, 6, '2025-07-11 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (75, 3, '2025-03-16 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (76, 3, '2025-08-08 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (77, 1, '2025-09-14 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (78, 6, '2025-03-15 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (79, 6, '2025-05-02 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (80, 6, '2025-08-27 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (81, 6, '2025-11-24 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (82, 4, '2025-10-15 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (83, 3, '2025-09-17 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (84, 2, '2025-10-21 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (85, 4, '2025-03-17 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (86, 6, '2025-07-26 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (87, 3, '2025-05-03 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (88, 9, '2025-10-19 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (89, 7, '2025-10-25 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (90, 9, '2025-06-03 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (91, 5, '2025-02-05 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (92, 9, '2024-12-16 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (93, 10, '2025-02-22 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (94, 8, '2025-03-14 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (95, 3, '2025-08-28 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (96, 2, '2025-07-29 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (97, 9, '2025-08-23 00:00:00', 'lost item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (98, 4, '2025-11-18 00:00:00', 'submit report');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (99, 1, '2025-04-11 00:00:00', 'found item');
+INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (100, 3, '2025-09-10 00:00:00', 'submit report');
+
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (1, 'Ham Prestie', 'hprestie0@youtube.com', '503-668-7625', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (2, 'Gussie Crissil', 'gcrissil1@bizjournals.com', '887-459-9359', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (3, 'Slade Randal', 'srandal2@webeden.co.uk', '838-332-3312', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (4, 'Teddi Gaiter', 'tgaiter3@ucoz.ru', '824-298-6488', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (5, 'Maegan Dibble', 'mdibble4@washingtonpost.com', '910-739-5868', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (6, 'Gardner Comfort', 'gcomfort5@domainmarket.com', '921-717-6256', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (7, 'Arne Cicero', 'acicero6@businessinsider.com', '693-331-8441', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (8, 'Sidney Delahunt', 'sdelahunt7@pinterest.com', '158-279-3459', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (9, 'Bern Whittier', 'bwhittier8@sakura.ne.jp', '936-935-4236', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (10, 'Levin Callaway', 'lcallaway9@ted.com', '647-956-5986', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (11, 'Wilmer Cannavan', 'wcannavana@acquirethisname.com', '269-153-5440', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (12, 'Drusilla Heber', 'dheberb@bbb.org', '666-946-4862', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (13, 'Carmina Drage', 'cdragec@devhub.com', '941-625-9479', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (14, 'Archaimbaud Gameson', 'agamesond@discovery.com', '316-464-9008', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (15, 'Rick Shilton', 'rshiltone@linkedin.com', '295-747-2189', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (16, 'Christen Lade', 'cladef@digg.com', '946-902-4792', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (17, 'Pavel Butson', 'pbutsong@lulu.com', '164-271-1488', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (18, 'Lebbie Fursse', 'lfursseh@clickbank.net', '789-397-1326', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (19, 'Berti McGorman', 'bmcgormani@japanpost.jp', '736-396-0093', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (20, 'Karl Hammon', 'khammonj@home.pl', '765-200-4317', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (21, 'Katuscha Bohin', 'kbohink@msu.edu', '112-797-2997', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (22, 'Raynor Pechan', 'rpechanl@nba.com', '506-177-8323', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (23, 'Moises Braunlein', 'mbraunleinm@aboutads.info', '223-753-6669', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (24, 'Wes Gabits', 'wgabitsn@china.com.cn', '708-824-7106', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (25, 'Artair Robson', 'arobsono@bandcamp.com', '613-986-2912', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (26, 'Ernie Gibbs', 'egibbsp@ocn.ne.jp', '513-458-3554', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (27, 'Myrah Tiuit', 'mtiuitq@fda.gov', '414-638-8057', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (28, 'Antonetta Jarmyn', 'ajarmynr@github.io', '216-296-0444', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (29, 'Jolynn Organer', 'jorganers@un.org', '216-556-6529', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (30, 'Barb Lenthall', 'blenthallt@tripadvisor.com', '915-552-2203', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (31, 'Gloria Dalston', 'gdalstonu@wikia.com', '674-353-1817', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (32, 'Linn Espinel', 'lespinelv@kickstarter.com', '919-887-2066', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (33, 'Bernete Tamburi', 'btamburiw@bluehost.com', '336-673-8385', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (34, 'Lizabeth Bever', 'lbeverx@fda.gov', '352-632-4019', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (35, 'Myron Marde', 'mmardey@bbb.org', '954-298-7314', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (36, 'Sarette Parbrook', 'sparbrookz@youtu.be', '477-231-9881', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (37, 'Gleda Anniwell', 'ganniwell10@bbb.org', '187-568-9512', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (38, 'Vivianna Mathet', 'vmathet11@icio.us', '573-857-9807', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (39, 'Humfried Claydon', 'hclaydon12@tiny.cc', '813-939-8297', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (40, 'Birgitta Westcot', 'bwestcot13@oakley.com', '900-648-5816', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (41, 'Olga Truin', 'otruin14@cyberchimps.com', '577-328-0389', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (42, 'Flynn Pimlett', 'fpimlett15@psu.edu', '781-631-8812', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (43, 'Gabbie Savatier', 'gsavatier16@nature.com', '659-168-5534', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (44, 'Theodor Whitehead', 'twhitehead17@ftc.gov', '414-927-0970', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (45, 'Vivia Bristow', 'vbristow18@rakuten.co.jp', '693-676-2082', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (46, 'Elmira Perone', 'eperone19@squarespace.com', '544-908-7151', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (47, 'Elsie Jakaway', 'ejakaway1a@chicagotribune.com', '804-181-0726', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (48, 'Valerye Youd', 'vyoud1b@ftc.gov', '258-691-2356', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (49, 'Myrta Gosse', 'mgosse1c@w3.org', '117-697-2125', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (50, 'Karlee Lethbridge', 'klethbridge1d@army.mil', '321-910-8381', TRUE);
