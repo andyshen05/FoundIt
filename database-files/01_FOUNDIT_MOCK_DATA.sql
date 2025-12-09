@@ -11,6 +11,124 @@ INSERT INTO admin (adminID, email) VALUES ('8', 'teltone7@example.com');
 INSERT INTO admin (adminID, email) VALUES ('9', 'ltrace8@ebay.co.uk');
 INSERT INTO admin (adminID, email) VALUES ('10', 'dwhetnall9@w3.org');
 
+
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (1, 'Ham Prestie', 'hprestie0@youtube.com', '503-668-7625', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (2, 'Gussie Crissil', 'gcrissil1@bizjournals.com', '887-459-9359', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (3, 'Slade Randal', 'srandal2@webeden.co.uk', '838-332-3312', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (4, 'Teddi Gaiter', 'tgaiter3@ucoz.ru', '824-298-6488', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (5, 'Maegan Dibble', 'mdibble4@washingtonpost.com', '910-739-5868', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (6, 'Gardner Comfort', 'gcomfort5@domainmarket.com', '921-717-6256', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (7, 'Arne Cicero', 'acicero6@businessinsider.com', '693-331-8441', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (8, 'Sidney Delahunt', 'sdelahunt7@pinterest.com', '158-279-3459', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (9, 'Bern Whittier', 'bwhittier8@sakura.ne.jp', '936-935-4236', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (10, 'Levin Callaway', 'lcallaway9@ted.com', '647-956-5986', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (11, 'Wilmer Cannavan', 'wcannavana@acquirethisname.com', '269-153-5440', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (12, 'Drusilla Heber', 'dheberb@bbb.org', '666-946-4862', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (13, 'Carmina Drage', 'cdragec@devhub.com', '941-625-9479', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (14, 'Archaimbaud Gameson', 'agamesond@discovery.com', '316-464-9008', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (15, 'Rick Shilton', 'rshiltone@linkedin.com', '295-747-2189', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (16, 'Christen Lade', 'cladef@digg.com', '946-902-4792', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (17, 'Pavel Butson', 'pbutsong@lulu.com', '164-271-1488', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (18, 'Lebbie Fursse', 'lfursseh@clickbank.net', '789-397-1326', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (19, 'Berti McGorman', 'bmcgormani@japanpost.jp', '736-396-0093', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (20, 'Karl Hammon', 'khammonj@home.pl', '765-200-4317', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (21, 'Katuscha Bohin', 'kbohink@msu.edu', '112-797-2997', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (22, 'Raynor Pechan', 'rpechanl@nba.com', '506-177-8323', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (23, 'Moises Braunlein', 'mbraunleinm@aboutads.info', '223-753-6669', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (24, 'Wes Gabits', 'wgabitsn@china.com.cn', '708-824-7106', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (25, 'Artair Robson', 'arobsono@bandcamp.com', '613-986-2912', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (26, 'Ernie Gibbs', 'egibbsp@ocn.ne.jp', '513-458-3554', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (27, 'Myrah Tiuit', 'mtiuitq@fda.gov', '414-638-8057', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (28, 'Antonetta Jarmyn', 'ajarmynr@github.io', '216-296-0444', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (29, 'Jolynn Organer', 'jorganers@un.org', '216-556-6529', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (30, 'Barb Lenthall', 'blenthallt@tripadvisor.com', '915-552-2203', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (31, 'Gloria Dalston', 'gdalstonu@wikia.com', '674-353-1817', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (32, 'Linn Espinel', 'lespinelv@kickstarter.com', '919-887-2066', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (33, 'Bernete Tamburi', 'btamburiw@bluehost.com', '336-673-8385', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (34, 'Lizabeth Bever', 'lbeverx@fda.gov', '352-632-4019', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (35, 'Myron Marde', 'mmardey@bbb.org', '954-298-7314', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (36, 'Sarette Parbrook', 'sparbrookz@youtu.be', '477-231-9881', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (37, 'Gleda Anniwell', 'ganniwell10@bbb.org', '187-568-9512', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (38, 'Vivianna Mathet', 'vmathet11@icio.us', '573-857-9807', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (39, 'Humfried Claydon', 'hclaydon12@tiny.cc', '813-939-8297', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (40, 'Birgitta Westcot', 'bwestcot13@oakley.com', '900-648-5816', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (41, 'Olga Truin', 'otruin14@cyberchimps.com', '577-328-0389', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (42, 'Flynn Pimlett', 'fpimlett15@psu.edu', '781-631-8812', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (43, 'Gabbie Savatier', 'gsavatier16@nature.com', '659-168-5534', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (44, 'Theodor Whitehead', 'twhitehead17@ftc.gov', '414-927-0970', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (45, 'Vivia Bristow', 'vbristow18@rakuten.co.jp', '693-676-2082', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (46, 'Elmira Perone', 'eperone19@squarespace.com', '544-908-7151', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (47, 'Elsie Jakaway', 'ejakaway1a@chicagotribune.com', '804-181-0726', TRUE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (48, 'Valerye Youd', 'vyoud1b@ftc.gov', '258-691-2356', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (49, 'Myrta Gosse', 'mgosse1c@w3.org', '117-697-2125', FALSE);
+INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (50, 'Karlee Lethbridge', 'klethbridge1d@army.mil', '321-910-8381', TRUE);
+
+INSERT INTO category (categoryID, categoryName) VALUES
+(1, 'Clothing'),
+(2, 'Electronics'),
+(3, 'Water bottles'),
+(4, 'ID Cards');
+
+INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES
+('GPS collar that monitors your pet''s location and activity level.', 'Unclaimed', '2025-09-02 00:00:00', 14, 1, 1),
+('Just add water for delicious brownies.', 'Unclaimed', '2025-11-03 00:00:00', 56, 2, 2),
+('Leak-proof bottles for travel-sized toiletries.', 'Unclaimed', '2025-08-17 00:00:00', 15, 3, 3),
+('Refreshing sorbet with a zesty lemon flavor.', 'Unclaimed', '2025-01-10 00:00:00', 37, 4, 4),
+('Make delicious ice cream at home with this user-friendly machine.', 'Unclaimed', '2025-09-26 00:00:00', 1, 1, 5),
+('Burr coffee grinder for fresh ground coffee.', 'Unclaimed', '2025-01-14 00:00:00', 48, 2, 6),
+('Boost your Wi-Fi signal for better coverage.', 'Claimed', '2025-08-12 00:00:00', 62, 3, 7),
+('Eco-friendly bamboo cutting boards in various sizes.', 'Claimed', '2025-07-17 00:00:00', 22, 4, 8),
+('Stylish smartwatch with fitness tracking and notifications.', 'Unclaimed', '2024-12-24 00:00:00', 8, 1, 9),
+('Light and fluffy popcorn coated in sweet honey butter.', 'Claimed', '2025-02-16 00:00:00', 59, 2, 10),
+('Savory popcorn flavored with maple syrup and bacon bits.', 'Unclaimed', '2025-03-21 00:00:00', 64, 3, 11),
+('Artisan bread with caraway seeds for added flavor.', 'Claimed', '2025-11-01 00:00:00', 7, 4, 12),
+('Sweetened powder for refreshing lemonade.', 'Claimed', '2025-07-29 00:00:00', 17, 1, 13),
+('High-resolution camera for stunning photos.', 'Claimed', '2025-02-17 00:00:00', 68, 2, 14),
+('Heavy-duty rope suitable for boating, camping, and general use.', 'Unclaimed', '2025-11-08 00:00:00', 67, 3, 15),
+('Fluffy couscous seasoned with a blend of herbs, perfect as a side dish.', 'Claimed', '2025-07-11 00:00:00', 70, 4, 16),
+('Frozen chicken bites coated in a honey sriracha glaze, spicy and sweet.', 'Claimed', '2025-01-16 00:00:00', 76, 1, 17),
+('Roasted almonds dipped in rich dark chocolate.', 'Claimed', '2025-04-15 00:00:00', 83, 2, 18),
+('Beautiful wall calendar for organizing your schedule.', 'Unclaimed', '2025-04-10 00:00:00', 34, 3, 19),
+('Sweetened sticky rice served with fresh mango and coconut sauce.', 'Unclaimed', '2025-07-14 00:00:00', 30, 4, 20),
+('Marinated chicken skewers infused with traditional tandoori spices.', 'Unclaimed', '2025-04-09 00:00:00', 55, 1, 21),
+('Juicy pork tenderloin, great for roasting.', 'Claimed', '2025-01-20 00:00:00', 78, 2, 22),
+('Rechargeable electric razor for a smooth shave.', 'Unclaimed', '2025-11-04 00:00:00', 53, 3, 23),
+('Challenging puzzle game set for family entertainment.', 'Unclaimed', '2025-10-16 00:00:00', 61, 4, 24),
+('Complete fondue set for chocolate and cheese parties.', 'Claimed', '2024-12-26 00:00:00', 6, 1, 25),
+('Frozen mango chunks for smoothies or snacking.', 'Claimed', '2025-03-27 00:00:00', 5, 2, 26),
+('Crunchy granola mixed with maple syrup and cinnamon, perfect for breakfast or snacks.', 'Claimed', '2025-11-07 00:00:00', 39, 3, 27),
+('A fresh salad made with black beans, corn, and a zesty dressing, great for summer cookouts.', 'Unclaimed', '2025-10-16 00:00:00', 95, 4, 28),
+('Track steps, heart rate, and sleep patterns.', 'Unclaimed', '2025-08-14 00:00:00', 31, 1, 29),
+('Compact knife with safety lock for everyday use.', 'Claimed', '2025-04-01 00:00:00', 49, 2, 30);
+
+INSERT INTO desk_manager (managerID, name, phoneNumber, email) VALUES
+(1, 'Jordan Walsh', '432-162-5235', 'jwalsh@celtics.com'),
+(2, 'Jaylen Brown', '546-541-5991', 'jbrown@celtics.com'),
+(3, 'Joe Mazzula', '781-312-9182', 'jmazzula@celtics.com');
+
+
+INSERT INTO claim_record (claimID, claimDate, claimerEmail, itemID, managerID) VALUES
+(729, '2025-04-19 00:00:00', 'wklulisek0@state.tx.us', 1, 1),
+(730, '2025-09-22 00:00:00', 'rfreddi1@nyu.edu', 2, 1),
+(731, '2025-03-01 00:00:00', 'treymers2@live.com', 3, 2),
+(732, '2025-03-12 00:00:00', 'hharmant3@yellowbook.com', 4, 1),
+(733, '2025-07-28 00:00:00', 'akibel4@taobao.com', 5, 3),
+(734, '2025-09-06 00:00:00', 'ngerson5@ifeng.com', 6, 2),
+(735, '2025-07-31 00:00:00', 'jcallway6@webs.com', 7, 2),
+(736, '2025-08-14 00:00:00', 'ljoseff7@hp.com', 8, 1),
+(737, '2025-06-14 00:00:00', 'rtomisch8@chicagotribune.com', 9, 2),
+(738, '2025-08-30 00:00:00', 'cgentle9@comsenz.com', 10, 1),
+(739, '2024-12-22 00:00:00', 'mespadatea@multiply.com', 11, 2),
+(740, '2025-01-29 00:00:00', 'ftebbittb@ed.gov', 12, 1),
+(741, '2024-12-25 00:00:00', 'ncabottoc@google.com.au', 13, 1),
+(742, '2025-08-27 00:00:00', 'mdriffed@eventbrite.com', 14, 3),
+(743, '2025-07-17 00:00:00', 'gkettlese@wikia.com', 15, 3),
+(744, '2025-07-27 00:00:00', 'jmesshamf@joomla.org', 16, 2),
+(745, '2025-07-15 00:00:00', 'sridwoodg@amazon.co.uk', 17, 1),
+(746, '2025-12-01 00:00:00', 'fdovidianh@mac.com', 18, 3),
+(747, '2025-04-25 00:00:00', 'trobertssoni@a8.net', 19, 1),
+(748, '2025-09-15 00:00:00', 'ehargessj@eventbrite.com', 20, 2);
+
 INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-06-30 00:00:00', 4, 1);
 INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-05-18 00:00:00', 7, 2);
 INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-04-29 00:00:00', 5, 3);
@@ -152,39 +270,6 @@ INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-11-11 00:0
 INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-01-10 00:00:00', 1, 139);
 INSERT INTO analytics (timestamp, adminID, analyticsID) VALUES ('2025-02-06 00:00:00', 1, 140);
 
-INSERT INTO category (categoryID, categoryName) VALUES
-(1, 'Clothing'),
-(2, 'Electronics'),
-(3, 'Water bottles'),
-(4, 'ID Cards');
-
-INSERT INTO claim_record (claimID, claimDate, claimerEmail, itemID, managerID) VALUES
-(729, '2025-04-19 00:00:00', 'wklulisek0@state.tx.us', 1, 1),
-(730, '2025-09-22 00:00:00', 'rfreddi1@nyu.edu', 2, 1),
-(731, '2025-03-01 00:00:00', 'treymers2@live.com', 3, 2),
-(732, '2025-03-12 00:00:00', 'hharmant3@yellowbook.com', 4, 1),
-(733, '2025-07-28 00:00:00', 'akibel4@taobao.com', 5, 3),
-(734, '2025-09-06 00:00:00', 'ngerson5@ifeng.com', 6, 2),
-(735, '2025-07-31 00:00:00', 'jcallway6@webs.com', 7, 2),
-(736, '2025-08-14 00:00:00', 'ljoseff7@hp.com', 8, 1),
-(737, '2025-06-14 00:00:00', 'rtomisch8@chicagotribune.com', 9, 2),
-(738, '2025-08-30 00:00:00', 'cgentle9@comsenz.com', 10, 1),
-(739, '2024-12-22 00:00:00', 'mespadatea@multiply.com', 11, 2),
-(740, '2025-01-29 00:00:00', 'ftebbittb@ed.gov', 12, 1),
-(741, '2024-12-25 00:00:00', 'ncabottoc@google.com.au', 13, 1),
-(742, '2025-08-27 00:00:00', 'mdriffed@eventbrite.com', 14, 3),
-(743, '2025-07-17 00:00:00', 'gkettlese@wikia.com', 15, 3),
-(744, '2025-07-27 00:00:00', 'jmesshamf@joomla.org', 16, 2),
-(745, '2025-07-15 00:00:00', 'sridwoodg@amazon.co.uk', 17, 1),
-(746, '2025-12-01 00:00:00', 'fdovidianh@mac.com', 18, 3),
-(747, '2025-04-25 00:00:00', 'trobertssoni@a8.net', 19, 1),
-(748, '2025-09-15 00:00:00', 'ehargessj@eventbrite.com', 20, 2);
-
-INSERT INTO desk_manager (managerID, name, phoneNumber, email) VALUES
-(1, 'Jordan Walsh', '432-162-5235', 'jwalsh@celtics.com'),
-(2, 'Jaylen Brown', '546-541-5991', 'jbrown@celtics.com'),
-(3, 'Joe Mazzula', '781-312-9182', 'jmazzula@celtics.com');
-
 INSERT INTO found_item_inventory (dateReceived, managerID, itemID, storageLocationID, inventoryID) VALUES
 ('2025-08-03 00:00:00', 3, 14, 2, 1),
 ('2025-03-15 00:00:00', 1, 7, 4, 2),
@@ -292,38 +377,6 @@ INSERT INTO item_stats (numReports, matchRate, analyticsID, statID) VALUES
 (13, 84, 154, 38),
 (17, 74, 2, 39),
 (15, 47, 129, 40);
-
-INSERT INTO items (description, status, dateFound, daysInStorage, categoryID, itemID) VALUES
-('GPS collar that monitors your pet''s location and activity level.', 'Unclaimed', '2025-09-02 00:00:00', 14, 1, 1),
-('Just add water for delicious brownies.', 'Unclaimed', '2025-11-03 00:00:00', 56, 2, 2),
-('Leak-proof bottles for travel-sized toiletries.', 'Unclaimed', '2025-08-17 00:00:00', 15, 3, 3),
-('Refreshing sorbet with a zesty lemon flavor.', 'Unclaimed', '2025-01-10 00:00:00', 37, 4, 4),
-('Make delicious ice cream at home with this user-friendly machine.', 'Unclaimed', '2025-09-26 00:00:00', 1, 1, 5),
-('Burr coffee grinder for fresh ground coffee.', 'Unclaimed', '2025-01-14 00:00:00', 48, 2, 6),
-('Boost your Wi-Fi signal for better coverage.', 'Claimed', '2025-08-12 00:00:00', 62, 3, 7),
-('Eco-friendly bamboo cutting boards in various sizes.', 'Claimed', '2025-07-17 00:00:00', 22, 4, 8),
-('Stylish smartwatch with fitness tracking and notifications.', 'Unclaimed', '2024-12-24 00:00:00', 8, 1, 9),
-('Light and fluffy popcorn coated in sweet honey butter.', 'Claimed', '2025-02-16 00:00:00', 59, 2, 10),
-('Savory popcorn flavored with maple syrup and bacon bits.', 'Unclaimed', '2025-03-21 00:00:00', 64, 3, 11),
-('Artisan bread with caraway seeds for added flavor.', 'Claimed', '2025-11-01 00:00:00', 7, 4, 12),
-('Sweetened powder for refreshing lemonade.', 'Claimed', '2025-07-29 00:00:00', 17, 1, 13),
-('High-resolution camera for stunning photos.', 'Claimed', '2025-02-17 00:00:00', 68, 2, 14),
-('Heavy-duty rope suitable for boating, camping, and general use.', 'Unclaimed', '2025-11-08 00:00:00', 67, 3, 15),
-('Fluffy couscous seasoned with a blend of herbs, perfect as a side dish.', 'Claimed', '2025-07-11 00:00:00', 70, 4, 16),
-('Frozen chicken bites coated in a honey sriracha glaze, spicy and sweet.', 'Claimed', '2025-01-16 00:00:00', 76, 1, 17),
-('Roasted almonds dipped in rich dark chocolate.', 'Claimed', '2025-04-15 00:00:00', 83, 2, 18),
-('Beautiful wall calendar for organizing your schedule.', 'Unclaimed', '2025-04-10 00:00:00', 34, 3, 19),
-('Sweetened sticky rice served with fresh mango and coconut sauce.', 'Unclaimed', '2025-07-14 00:00:00', 30, 4, 20),
-('Marinated chicken skewers infused with traditional tandoori spices.', 'Unclaimed', '2025-04-09 00:00:00', 55, 1, 21),
-('Juicy pork tenderloin, great for roasting.', 'Claimed', '2025-01-20 00:00:00', 78, 2, 22),
-('Rechargeable electric razor for a smooth shave.', 'Unclaimed', '2025-11-04 00:00:00', 53, 3, 23),
-('Challenging puzzle game set for family entertainment.', 'Unclaimed', '2025-10-16 00:00:00', 61, 4, 24),
-('Complete fondue set for chocolate and cheese parties.', 'Claimed', '2024-12-26 00:00:00', 6, 1, 25),
-('Frozen mango chunks for smoothies or snacking.', 'Claimed', '2025-03-27 00:00:00', 5, 2, 26),
-('Crunchy granola mixed with maple syrup and cinnamon, perfect for breakfast or snacks.', 'Claimed', '2025-11-07 00:00:00', 39, 3, 27),
-('A fresh salad made with black beans, corn, and a zesty dressing, great for summer cookouts.', 'Unclaimed', '2025-10-16 00:00:00', 95, 4, 28),
-('Track steps, heart rate, and sleep patterns.', 'Unclaimed', '2025-08-14 00:00:00', 31, 1, 29),
-('Compact knife with safety lock for everyday use.', 'Claimed', '2025-04-01 00:00:00', 49, 2, 30);
 
 INSERT INTO location (locationID, lastSeenAt) VALUES
 (1, 'cabot'),
@@ -563,6 +616,7 @@ INSERT INTO report (reportID, userID, logID, modID, content) VALUES
 (38, 3, 75, 54, 'spam'),
 (39, 47, 7, 40, 'scam'),
 (40, 31, 45, 27, 'malicious');
+
 INSERT INTO reward (rewardID, lostReportID, rewardAmount) VALUES
 (1, 1, 8),
 (2, 2, 30),
@@ -784,54 +838,3 @@ INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (97, 9, '2025-
 INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (98, 4, '2025-11-18 00:00:00', 'submit report');
 INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (99, 1, '2025-04-11 00:00:00', 'found item');
 INSERT INTO user_log (logID, adminID, timestamp, activity) VALUES (100, 3, '2025-09-10 00:00:00', 'submit report');
-
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (1, 'Ham Prestie', 'hprestie0@youtube.com', '503-668-7625', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (2, 'Gussie Crissil', 'gcrissil1@bizjournals.com', '887-459-9359', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (3, 'Slade Randal', 'srandal2@webeden.co.uk', '838-332-3312', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (4, 'Teddi Gaiter', 'tgaiter3@ucoz.ru', '824-298-6488', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (5, 'Maegan Dibble', 'mdibble4@washingtonpost.com', '910-739-5868', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (6, 'Gardner Comfort', 'gcomfort5@domainmarket.com', '921-717-6256', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (7, 'Arne Cicero', 'acicero6@businessinsider.com', '693-331-8441', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (8, 'Sidney Delahunt', 'sdelahunt7@pinterest.com', '158-279-3459', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (9, 'Bern Whittier', 'bwhittier8@sakura.ne.jp', '936-935-4236', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (10, 'Levin Callaway', 'lcallaway9@ted.com', '647-956-5986', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (11, 'Wilmer Cannavan', 'wcannavana@acquirethisname.com', '269-153-5440', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (12, 'Drusilla Heber', 'dheberb@bbb.org', '666-946-4862', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (13, 'Carmina Drage', 'cdragec@devhub.com', '941-625-9479', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (14, 'Archaimbaud Gameson', 'agamesond@discovery.com', '316-464-9008', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (15, 'Rick Shilton', 'rshiltone@linkedin.com', '295-747-2189', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (16, 'Christen Lade', 'cladef@digg.com', '946-902-4792', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (17, 'Pavel Butson', 'pbutsong@lulu.com', '164-271-1488', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (18, 'Lebbie Fursse', 'lfursseh@clickbank.net', '789-397-1326', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (19, 'Berti McGorman', 'bmcgormani@japanpost.jp', '736-396-0093', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (20, 'Karl Hammon', 'khammonj@home.pl', '765-200-4317', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (21, 'Katuscha Bohin', 'kbohink@msu.edu', '112-797-2997', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (22, 'Raynor Pechan', 'rpechanl@nba.com', '506-177-8323', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (23, 'Moises Braunlein', 'mbraunleinm@aboutads.info', '223-753-6669', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (24, 'Wes Gabits', 'wgabitsn@china.com.cn', '708-824-7106', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (25, 'Artair Robson', 'arobsono@bandcamp.com', '613-986-2912', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (26, 'Ernie Gibbs', 'egibbsp@ocn.ne.jp', '513-458-3554', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (27, 'Myrah Tiuit', 'mtiuitq@fda.gov', '414-638-8057', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (28, 'Antonetta Jarmyn', 'ajarmynr@github.io', '216-296-0444', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (29, 'Jolynn Organer', 'jorganers@un.org', '216-556-6529', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (30, 'Barb Lenthall', 'blenthallt@tripadvisor.com', '915-552-2203', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (31, 'Gloria Dalston', 'gdalstonu@wikia.com', '674-353-1817', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (32, 'Linn Espinel', 'lespinelv@kickstarter.com', '919-887-2066', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (33, 'Bernete Tamburi', 'btamburiw@bluehost.com', '336-673-8385', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (34, 'Lizabeth Bever', 'lbeverx@fda.gov', '352-632-4019', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (35, 'Myron Marde', 'mmardey@bbb.org', '954-298-7314', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (36, 'Sarette Parbrook', 'sparbrookz@youtu.be', '477-231-9881', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (37, 'Gleda Anniwell', 'ganniwell10@bbb.org', '187-568-9512', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (38, 'Vivianna Mathet', 'vmathet11@icio.us', '573-857-9807', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (39, 'Humfried Claydon', 'hclaydon12@tiny.cc', '813-939-8297', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (40, 'Birgitta Westcot', 'bwestcot13@oakley.com', '900-648-5816', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (41, 'Olga Truin', 'otruin14@cyberchimps.com', '577-328-0389', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (42, 'Flynn Pimlett', 'fpimlett15@psu.edu', '781-631-8812', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (43, 'Gabbie Savatier', 'gsavatier16@nature.com', '659-168-5534', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (44, 'Theodor Whitehead', 'twhitehead17@ftc.gov', '414-927-0970', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (45, 'Vivia Bristow', 'vbristow18@rakuten.co.jp', '693-676-2082', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (46, 'Elmira Perone', 'eperone19@squarespace.com', '544-908-7151', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (47, 'Elsie Jakaway', 'ejakaway1a@chicagotribune.com', '804-181-0726', TRUE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (48, 'Valerye Youd', 'vyoud1b@ftc.gov', '258-691-2356', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (49, 'Myrta Gosse', 'mgosse1c@w3.org', '117-697-2125', FALSE);
-INSERT INTO user (userID, name, email, phoneNumber, accStatus) VALUES (50, 'Karlee Lethbridge', 'klethbridge1d@army.mil', '321-910-8381', TRUE);
