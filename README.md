@@ -19,3 +19,5 @@ SECRET_KEY: someCrazyS3cR3T!Key.!
 MySQL_ROOT_PASSWORD: <put a good password here>
 
 Team members: Andy Shen, Alex Ma
+
+##VIDEO LINK: https://www.dropbox.com/scl/fi/3us5odbios50gcqtvixer/My-Movie-720p30.MOV?rlkey=mc5e0rvxlo1l3evvaj5wocfsf&st=am0ox3c4&dl=0 
