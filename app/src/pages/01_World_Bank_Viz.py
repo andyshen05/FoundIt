@@ -1,41 +1,96 @@
-import logging
-logger = logging.getLogger(__name__)
-import pandas as pd
 import streamlit as st
+import requests
 from streamlit_extras.app_logo import add_logo
-import world_bank_data as wb
-import matplotlib.pyplot as plt
-import numpy as np
-import plotly.express as px
 from modules.nav import SideBarLinks
 
-# Call the SideBarLinks from the nav module in the modules directory
+# Initialize sidebar
 SideBarLinks()
 
-# set the header of the page
-st.header('Create Missing Item Report')
+st.title("Report a Submission")
 
-# You can access the session state to make a more customized/personalized app experience
-st.write(f"### Hi, {st.session_state['first_name']}.")
+# Initialize session state for modal
+if "show_success_modal" not in st.session_state:
+    st.session_state.show_success_modal = False
+if "success_report_name" not in st.session_state:
+    st.session_state.success_report_name = ""
+if "reset_form" not in st.session_state:
+    st.session_state.reset_form = False
+if "form_key_counter" not in st.session_state:
+    st.session_state.form_key_counter = 0
 
-# get the countries from the world bank data
-with st.echo(code_location='above'):
-    countries:pd.DataFrame = wb.get_countries()
-   
-    st.dataframe(countries)
+# Define the success dialog function
+@st.dialog("Success")
+def show_success_dialog(report_id):
+    st.markdown(f"### Report {report_id} has been successfully added to the system!")
+    
+    # Create two buttons side by side
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        if st.button("Return to User Homepage", use_container_width=True):
+            st.session_state.show_success_modal = False
+            st.session_state.success_report_name = ""
+            st.switch_page("pages/00_Lost_Student_Home.py")
+    
+    with col2:
+        if st.button("Create Another Report", use_container_width=True):
+            st.session_state.show_success_modal = False
+            st.session_state.success_report_name = ""
+            st.session_state.reset_form = True
+            st.rerun()
 
-# the with statment shows the code for this block above it 
-with st.echo(code_location='above'):
-    arr = np.random.normal(1, 1, size=100)
-    test_plot, ax = plt.subplots()
-    ax.hist(arr, bins=20)
+# Handle form reset
+if st.session_state.reset_form:
+    st.session_state.form_key_counter += 1
+    st.session_state.reset_form = False
 
-    st.pyplot(test_plot)
+# API endpoint
+API_URL = "http://web-api:4000/foundit/report"
 
+# Create a form for NGO details with dynamic key to force reset
+with st.form(f"add_report_{st.session_state.form_key_counter}"):
+    st.subheader("Submission Information")
 
-with st.echo(code_location='above'):
-    slim_countries = countries[countries['incomeLevel'] != 'Aggregates']
-    data_crosstab = pd.crosstab(slim_countries['region'], 
-                                slim_countries['incomeLevel'],  
-                                margins = False) 
-    st.table(data_crosstab)
+    # Required fields
+    name = st.text_input("Submission Name *")
+    description = st.text_input("Description *")
+
+    # Form submission button
+    submitted = st.form_submit_button("Submit Report")
+
+    if submitted:
+        # Validate required fields
+        if not all([name, description]):
+            st.error("Please fill in all required fields marked with *")
+        else:
+            # Prepare the data for API
+            report_data = {
+                "Name": name,
+                "Content": description
+            }
+
+            try:
+                # Send POST request to API
+                response = requests.post(API_URL, json=report_data)
+
+                if response.status_code == 201:
+                    # Store item report and show modal
+                    st.session_state.show_success_modal = True
+                    st.session_state.success_report_name = name
+                    st.rerun()
+                else:
+                    st.error(
+                        f"Failed to create Report: {response.json().get('error', 'Unknown error')}"
+                    )
+
+            except requests.exceptions.RequestException as e:
+                st.error(f"Error connecting to the API: {str(e)}")
+                st.info("Please ensure the API server is running")
+
+# Show success modal if NGO was added successfully
+if st.session_state.show_success_modal:
+    show_success_dialog(st.session_state.success_report_name)
+
+# Add a button to return to the NGO Directory
+if st.button("Return to User Homepage"):
+    st.switch_page("pages/00_Lost_Student_Home.py")
